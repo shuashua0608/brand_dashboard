@@ -1,0 +1,15 @@
+{
+  "brand": "Glossier",
+  "total_comments": 55,
+  "relevant_comments": 17,
+  "relevance_rate": 30.909090909090907,
+  "avg_processing_time": 3.65206711509011,
+  "clustering_info": {
+    "total_comments": 55,
+    "clustered_comments": "4",
+    "unique_clusters": 1,
+    "propagated_results": "2",
+    "llm_calls_saved": "2"
+  },
+  "timestamp": "2025-07-23T18:12:34.131989"
+}

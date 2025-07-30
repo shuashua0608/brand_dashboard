@@ -1,0 +1,28 @@
+{
+  "brand": "Dior",
+  "total_processed": 484,
+  "total_ccr_risks": 20,
+  "ccr_risk_rate": 0.04132231404958678,
+  "processing_method": "clustered",
+  "processing_time": 57.752281188964844,
+  "throughput": 8.380621337127051,
+  "sample_size": "all",
+  "risk_breakdown": {
+    "Suspicious_source": 17
+  },
+  "risk_level_distribution": {
+    "Medium": 17,
+    "Low": 3
+  },
+  "clustering_efficiency": {
+    "total_clusters": 34,
+    "comments_in_clusters": 162,
+    "llm_calls_saved": 127,
+    "efficiency_percentage": 26.239669421487605
+  },
+  "comment_preservation": {
+    "original_count": 484,
+    "processed_count": 484,
+    "all_preserved": true
+  }
+}

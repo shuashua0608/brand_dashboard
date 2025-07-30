@@ -1,0 +1,15 @@
+{
+  "brand": "Givenchy",
+  "total_comments": 90,
+  "relevant_comments": 71,
+  "relevance_rate": 78.88888888888889,
+  "avg_processing_time": 2.750796529981825,
+  "clustering_info": {
+    "total_comments": 90,
+    "clustered_comments": "29",
+    "unique_clusters": 4,
+    "propagated_results": "24",
+    "llm_calls_saved": "24"
+  },
+  "timestamp": "2025-07-23T18:12:25.923189"
+}

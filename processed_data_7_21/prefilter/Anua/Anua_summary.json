@@ -1,0 +1,15 @@
+{
+  "brand": "Anua",
+  "total_comments": 251,
+  "relevant_comments": 246,
+  "relevance_rate": 98.00796812749005,
+  "avg_processing_time": 2.719013972111432,
+  "clustering_info": {
+    "total_comments": 251,
+    "clustered_comments": "122",
+    "unique_clusters": 12,
+    "propagated_results": "109",
+    "llm_calls_saved": "109"
+  },
+  "timestamp": "2025-07-23T18:08:30.342827"
+}

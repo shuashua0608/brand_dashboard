@@ -1,0 +1,49 @@
+{
+  "brand": "Pantene",
+  "total_processed": 286,
+  "promotional_count": 241,
+  "high_intensity_promo_count": 195,
+  "promotional_rate": 0.8426573426573427,
+  "high_intensity_promo_rate": 0.6818181818181818,
+  "duplicate_clusters": 61,
+  "total_duplicates": 273,
+  "repeated_content_rate": 95.45454545454545,
+  "processing_time": 40.08343482017517,
+  "throughput": 7.135117069758897,
+  "platform_distribution": {
+    "TWITTER": 201,
+    "WEB": 19,
+    "INSTAGRAM": 19,
+    "TV": 1,
+    "FACEBOOK": 1
+  },
+  "promo_types": {
+    "Affiliate": 177,
+    "Brand_Official": 24,
+    "Influencer": 23,
+    "UGC_Campaign": 9,
+    "Spam": 8
+  },
+  "promotional_intensity_distribution": {
+    "High": 195,
+    "Medium": 34,
+    "Low": 12
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 21,
+    "comments_in_clusters": 101,
+    "llm_calls_saved": 79,
+    "efficiency_percentage": 27.62237762237762
+  },
+  "comment_preservation": {
+    "original_count": 286,
+    "processed_count": 286,
+    "all_preserved": true
+  }
+}

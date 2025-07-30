@@ -1,0 +1,47 @@
+{
+  "brand": "Optimum Nutrition",
+  "total_processed": 189,
+  "promotional_count": 163,
+  "high_intensity_promo_count": 151,
+  "promotional_rate": 0.8624338624338624,
+  "high_intensity_promo_rate": 0.798941798941799,
+  "duplicate_clusters": 34,
+  "total_duplicates": 245,
+  "repeated_content_rate": 129.62962962962962,
+  "processing_time": 20.404251098632812,
+  "throughput": 9.262775638585625,
+  "platform_distribution": {
+    "TWITTER": 141,
+    "WEB": 11,
+    "INSTAGRAM": 7,
+    "REDDIT": 2,
+    "FACEBOOK": 2
+  },
+  "promo_types": {
+    "Affiliate": 152,
+    "Brand_Official": 8,
+    "Influencer": 3
+  },
+  "promotional_intensity_distribution": {
+    "High": 151,
+    "Medium": 11,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 11,
+    "comments_in_clusters": 106,
+    "llm_calls_saved": 94,
+    "efficiency_percentage": 49.735449735449734
+  },
+  "comment_preservation": {
+    "original_count": 189,
+    "processed_count": 189,
+    "all_preserved": true
+  }
+}

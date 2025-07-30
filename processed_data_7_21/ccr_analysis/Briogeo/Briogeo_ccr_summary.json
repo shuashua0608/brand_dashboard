@@ -1,0 +1,23 @@
+{
+  "brand": "Briogeo",
+  "total_processed": 6,
+  "total_ccr_risks": 0,
+  "ccr_risk_rate": 0.0,
+  "processing_method": "clustered",
+  "processing_time": 5.438526391983032,
+  "throughput": 1.103240026350638,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {},
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 6,
+    "processed_count": 6,
+    "all_preserved": true
+  }
+}

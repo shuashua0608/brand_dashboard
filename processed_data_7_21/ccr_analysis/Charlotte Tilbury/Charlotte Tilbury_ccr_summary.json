@@ -1,0 +1,25 @@
+{
+  "brand": "Charlotte Tilbury",
+  "total_processed": 20,
+  "total_ccr_risks": 1,
+  "ccr_risk_rate": 0.05,
+  "processing_method": "clustered",
+  "processing_time": 6.670002698898315,
+  "throughput": 2.9984995363350304,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {
+    "Low": 1
+  },
+  "clustering_efficiency": {
+    "total_clusters": 0,
+    "comments_in_clusters": 2,
+    "llm_calls_saved": 1,
+    "efficiency_percentage": 5.0
+  },
+  "comment_preservation": {
+    "original_count": 20,
+    "processed_count": 20,
+    "all_preserved": true
+  }
+}

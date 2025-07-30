@@ -1,0 +1,15 @@
+{
+  "brand": "Supergoop!",
+  "total_comments": 54,
+  "relevant_comments": 45,
+  "relevance_rate": 83.33333333333334,
+  "avg_processing_time": 3.459539254506429,
+  "clustering_info": {
+    "total_comments": 54,
+    "clustered_comments": "20",
+    "unique_clusters": 4,
+    "propagated_results": "15",
+    "llm_calls_saved": "15"
+  },
+  "timestamp": "2025-07-23T18:18:46.202319"
+}

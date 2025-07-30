@@ -1,0 +1,101 @@
+{
+  "brand": "Charlotte Tilbury",
+  "timestamp": "2025-07-30T17:57:40.199264",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 26.98,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 17.1,
+      "promotional_risk": 71.51,
+      "sentiment_risk": 8.75,
+      "comment_intensity": 5.83
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 1.9607843137254901,
+        "base_score": 7.099702230475299,
+        "high_risks": 0,
+        "medium_risks": 1,
+        "low_risks": 0,
+        "severity_score": 5,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 1,
+        "total_risk_bonus": 2,
+        "risk_types_count": 1,
+        "diversity_bonus": 3,
+        "final_score": 17.099702230475298
+      },
+      "promotional": {
+        "promotional_rate": 49.01960784313725,
+        "base_score": 32.6797385620915,
+        "spam_count": 1,
+        "spam_rate": 1.9607843137254901,
+        "spam_bonus": 29.12198655813748,
+        "repeated_content_rate": 11.76470588235294,
+        "repetition_bonus": 2.3529411764705883,
+        "high_intensity_rate": 29.411764705882355,
+        "intensity_bonus": 7.352941176470589,
+        "final_score": 71.50760747317017
+      },
+      "sentiment": {
+        "negative_pct": 0,
+        "organic_negative_pct": 0.0,
+        "primary_negative_pct": 0.0,
+        "base_score": 0.0,
+        "mixed_pct": 2.0,
+        "mixed_bonus": 4.0,
+        "negative_emotions_pct": 2.0,
+        "emotion_bonus": 1.5,
+        "high_risk_emotion_bonus": 3.2520093342422633,
+        "final_score": 8.752009334242263
+      },
+      "intensity": {
+        "total_comments": 51,
+        "actual_daily_avg": 4.2,
+        "total_days": 12,
+        "used_actual_timestamps": true,
+        "volume_score": 0.6665174529194987,
+        "repeated_content_rate": 11.76470588235294,
+        "repetition_score": 4.600960867986188,
+        "avg_clustering_efficiency": 1.9607843137254901,
+        "efficiency_score": 0.5673300624902785,
+        "final_score": 5.834808383395966
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (49% of all content)",
+      "Significant influencer and affiliate marketing presence (23 instances combined)",
+      "Presence of spam content (1.96% rate)",
+      "Content repetition rate of 11.8% suggesting coordinated posting",
+      "Low organic engagement relative to promotional content"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level primarily driven by the overwhelming promotional content rate of 49%, which significantly exceeds healthy engagement benchmarks for luxury brands. This promotional saturation is particularly concerning for Charlotte Tilbury as a luxury makeup brand where authentic consumer advocacy should outweigh paid promotions. The combination of heavy influencer (12 instances) and affiliate marketing (11 instances) suggests the brand's social presence is dominated by commercial relationships rather than organic consumer conversations.\n\nWhile sentiment appears positive (minimal negative content), this is misleading when contextualized with the promotional dominance. The low comment intensity (5.83/100) paired with high promotional content indicates an engagement ecosystem that lacks authentic consumer participation. The presence of spam and content repetition (11.8%) further suggests potential manipulation of the brand's social presence, which poses significant risks to brand perception among discerning luxury cosmetics consumers who value authenticity and exclusivity.",
+    "immediate_actions": [
+      "1. Conduct audit of all influencer and affiliate partnerships to identify those with suspicious engagement patterns or repetitive content",
+      "2. Implement immediate monitoring of the identified spam content source and investigate for potential counterfeit activity",
+      "3. Temporarily reduce paid promotional content by 30% to rebalance organic/promotional ratio",
+      "4. Deploy community management team to stimulate genuine consumer conversations and testimonials",
+      "5. Implement enhanced disclosure requirements for all affiliate and influencer partners"
+    ],
+    "long_term_strategy": "1. Develop a balanced content strategy with maximum 25% promotional content target\n2. Create an influencer governance framework with quality metrics beyond follower count\n3. Implement an affiliate monitoring system to detect and prevent repetitive or misleading content\n4. Launch an authentic consumer advocacy program to increase organic positive sentiment\n5. Develop crisis response protocols specifically for counterfeit and promotional content risks\n6. Conduct quarterly promotional content audits to maintain healthy ratios\n7. Invest in technology to detect coordinated inauthentic behavior in brand conversations",
+    "business_impact": "1. Erosion of luxury brand perception due to oversaturation of promotional content\n2. Decreased consumer trust from perceived inauthenticity in brand conversations\n3. Potential regulatory scrutiny regarding undisclosed promotional relationships\n4. Reduced conversion rates as consumers become skeptical of overly promoted products\n5. Vulnerability to competitors who maintain more authentic consumer engagement\n6. Diminished return on marketing investment as promotional content becomes normalized\n7. Long-term damage to brand equity in the premium beauty segment",
+    "monitoring_priorities": "1. Promotional content ratio: Track weekly with alert threshold at >30%\n2. Organic engagement rate: Monitor daily with minimum target of 3%\n3. Content repetition rate: Alert if exceeds 5% in any 72-hour period\n4. Sentiment distribution among verified organic users vs. promotional content\n5. Spam content detection: Zero tolerance with immediate escalation protocol\n6. Suspicious source mentions: Daily monitoring with 24-hour investigation requirement\n7. Affiliate link concentration: Alert if any single product exceeds 25% of total mentions"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 26.98
+}

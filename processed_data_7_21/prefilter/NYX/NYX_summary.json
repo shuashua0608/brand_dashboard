@@ -1,0 +1,15 @@
+{
+  "brand": "NYX",
+  "total_comments": 392,
+  "relevant_comments": 131,
+  "relevance_rate": 33.41836734693878,
+  "avg_processing_time": 2.6117055075509206,
+  "clustering_info": {
+    "total_comments": 392,
+    "clustered_comments": "83",
+    "unique_clusters": 15,
+    "propagated_results": "67",
+    "llm_calls_saved": "67"
+  },
+  "timestamp": "2025-07-23T18:13:59.487819"
+}

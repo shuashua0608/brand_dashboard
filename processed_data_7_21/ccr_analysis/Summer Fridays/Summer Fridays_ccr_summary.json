@@ -1,0 +1,23 @@
+{
+  "brand": "Summer Fridays",
+  "total_processed": 13,
+  "total_ccr_risks": 0,
+  "ccr_risk_rate": 0.0,
+  "processing_method": "clustered",
+  "processing_time": 6.469807386398315,
+  "throughput": 2.0093333887080345,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {},
+  "clustering_efficiency": {
+    "total_clusters": 0,
+    "comments_in_clusters": 2,
+    "llm_calls_saved": 1,
+    "efficiency_percentage": 7.6923076923076925
+  },
+  "comment_preservation": {
+    "original_count": 13,
+    "processed_count": 13,
+    "all_preserved": true
+  }
+}

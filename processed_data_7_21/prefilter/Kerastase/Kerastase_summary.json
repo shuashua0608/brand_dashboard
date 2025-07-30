@@ -1,0 +1,15 @@
+{
+  "brand": "Kerastase",
+  "total_comments": 20,
+  "relevant_comments": 20,
+  "relevance_rate": 100.0,
+  "avg_processing_time": 3.050587034225464,
+  "clustering_info": {
+    "total_comments": 20,
+    "clustered_comments": "8",
+    "unique_clusters": 2,
+    "propagated_results": "5",
+    "llm_calls_saved": "5"
+  },
+  "timestamp": "2025-07-23T18:13:02.694897"
+}

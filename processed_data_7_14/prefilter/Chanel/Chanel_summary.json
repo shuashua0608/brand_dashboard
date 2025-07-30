@@ -1,0 +1,21 @@
+{
+  "brand": "Chanel",
+  "original_comments": 1663,
+  "total_comments": 1640,
+  "relevant_comments": 444,
+  "relevance_rate": 27.073170731707318,
+  "avg_processing_time": 2.285486966662291,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 1640
+  },
+  "clustering_info": {
+    "total_comments": 1640,
+    "clustered_comments": "362",
+    "unique_clusters": 69,
+    "propagated_results": "292",
+    "llm_calls_saved": "292"
+  },
+  "timestamp": "2025-07-29T06:12:49.026708"
+}

@@ -1,0 +1,50 @@
+{
+  "brand": "Anua",
+  "total_processed": 672,
+  "promotional_count": 610,
+  "high_intensity_promo_count": 334,
+  "promotional_rate": 0.9077380952380952,
+  "high_intensity_promo_rate": 0.49702380952380953,
+  "duplicate_clusters": 135,
+  "total_duplicates": 893,
+  "repeated_content_rate": 132.88690476190476,
+  "processing_time": 84.02438974380493,
+  "throughput": 7.997677841504896,
+  "platform_distribution": {
+    "TWITTER": 471,
+    "WEB": 66,
+    "INSTAGRAM": 65,
+    "FACEBOOK": 3,
+    "YOUTUBE": 3,
+    "REDDIT": 2
+  },
+  "promo_types": {
+    "Affiliate": 414,
+    "Influencer": 112,
+    "Brand_Official": 74,
+    "UGC_Campaign": 5,
+    "Spam": 5
+  },
+  "promotional_intensity_distribution": {
+    "High": 334,
+    "Medium": 269,
+    "Low": 7
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 51,
+    "comments_in_clusters": 281,
+    "llm_calls_saved": 229,
+    "efficiency_percentage": 34.077380952380956
+  },
+  "comment_preservation": {
+    "original_count": 672,
+    "processed_count": 672,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "brand": "Kayali",
+  "total_processed": 36,
+  "promotional_count": 11,
+  "high_intensity_promo_count": 3,
+  "promotional_rate": 0.3055555555555556,
+  "high_intensity_promo_rate": 0.08333333333333333,
+  "duplicate_clusters": 3,
+  "total_duplicates": 6,
+  "repeated_content_rate": 16.666666666666664,
+  "processing_time": 10.265758752822876,
+  "throughput": 3.5068036242426532,
+  "platform_distribution": {
+    "INSTAGRAM": 6,
+    "WEB": 3,
+    "REDDIT": 1,
+    "TWITTER": 1
+  },
+  "promo_types": {
+    "Influencer": 5,
+    "Affiliate": 3,
+    "Brand_Official": 2,
+    "Spam": 1
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 7,
+    "High": 3,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": false,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 0,
+    "comments_in_clusters": 2,
+    "llm_calls_saved": 1,
+    "efficiency_percentage": 2.7777777777777777
+  },
+  "comment_preservation": {
+    "original_count": 36,
+    "processed_count": 36,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "brand": "Sol de Janeiro",
+  "timestamp": "2025-07-30T18:09:29.393793",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 56.02,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 92.07,
+      "promotional_risk": 83.18,
+      "sentiment_risk": 13.84,
+      "comment_intensity": 63.74
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 3.3175355450236967,
+        "base_score": 14.065061107648184,
+        "high_risks": 4,
+        "medium_risks": 1,
+        "low_risks": 2,
+        "severity_score": 30,
+        "amazon_risks": 4,
+        "amazon_bonus": 25,
+        "total_ccr_risks": 7,
+        "total_risk_bonus": 14,
+        "risk_types_count": 3,
+        "diversity_bonus": 9,
+        "final_score": 92.06506110764818
+      },
+      "promotional": {
+        "promotional_rate": 78.19905213270142,
+        "base_score": 52.13270142180095,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 85.30805687203792,
+        "repetition_bonus": 17.061611374407587,
+        "high_intensity_rate": 55.92417061611374,
+        "intensity_bonus": 13.981042654028434,
+        "final_score": 83.17535545023696
+      },
+      "sentiment": {
+        "negative_pct": 0.5,
+        "organic_negative_pct": 2.1739130434782608,
+        "primary_negative_pct": 2.1739130434782608,
+        "base_score": 12.872802516355666,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 0.5,
+        "emotion_bonus": 0.375,
+        "high_risk_emotion_bonus": 0.5916938406640722,
+        "final_score": 13.839496357019739
+      },
+      "intensity": {
+        "total_comments": 211,
+        "actual_daily_avg": 16.2,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 4.9743551088017135,
+        "repeated_content_rate": 85.30805687203792,
+        "repetition_score": 49.58374325836609,
+        "avg_clustering_efficiency": 24.644549763033172,
+        "efficiency_score": 9.184509507632583,
+        "final_score": 63.742607874800385
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (78.2%) with concerning content repetition (85.3%)",
+      "Significant counterfeit/CCR risk indicators (92.07/100), particularly on Amazon",
+      "Moderate comment intensity (63.74/100) with inefficient content clustering (24.6%)",
+      "Disproportionate affiliate marketing presence (130 instances) vs. official brand content (11)"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level primarily driven by an imbalanced digital presence dominated by promotional content. With 78.2% of content being promotional and 85.3% showing repetition, Sol de Janeiro's authentic brand voice is being diluted by affiliate marketers and influencers. This creates a fragmented brand experience where consumers are more likely to encounter third-party representations of the brand than official messaging.\n\nThe counterfeit risk score of 92.07 is particularly concerning, with multiple Amazon-specific fake product concerns identified. While the overall sentiment remains positive (only 0.5% negative), this appears to be artificially inflated by the overwhelming promotional content. The true organic negative sentiment (2.2%) suggests underlying issues that may be masked by promotional noise. The clustering efficiency of only 24.6% indicates that conversations about the brand lack cohesion, further suggesting the brand narrative is not being effectively controlled.",
+    "immediate_actions": [
+      "1. Conduct Amazon marketplace audit to address the 4 identified counterfeit concerns and implement reporting procedures",
+      "2. Implement affiliate content guidelines requiring disclosure and brand messaging alignment within 7 days",
+      "3. Increase official brand content production to improve the ratio of official to affiliate content",
+      "4. Contact top 10 affiliates with highest repetition rates to diversify their messaging",
+      "5. Deploy social listening tools focused on the 2.2% organic negative sentiment to identify specific product or experience issues"
+    ],
+    "long_term_strategy": "1. Develop an affiliate management program with content guidelines, approval processes, and performance metrics\n2. Create an authorized retailer program with verification badges to combat counterfeit concerns\n3. Implement a balanced content strategy with 50/50 split between promotional and value-added content\n4. Establish a dedicated anti-counterfeit task force focusing on marketplace monitoring and enforcement\n5. Launch a consumer education campaign about authentic product identification and authorized retailers\n6. Develop more diverse content themes to improve clustering efficiency and reduce repetition rates",
+    "business_impact": "1. Brand dilution through over-promotion could lead to decreased perceived value and premium positioning\n2. Counterfeit products may damage brand reputation through poor quality experiences and safety concerns\n3. Revenue loss from diverted sales to counterfeit products, estimated at 5-10% of total revenue\n4. Reduced customer loyalty as brand messaging becomes inconsistent across promotional channels\n5. Potential regulatory scrutiny if affiliate disclosures are inadequate or misleading\n6. Diminished brand equity as the authentic brand voice is overwhelmed by promotional content",
+    "monitoring_priorities": "1. Promotional content ratio: Track weekly with alert threshold at >60%, target reduction to <50% within 60 days\n2. Counterfeit mentions: Daily monitoring with immediate escalation for any new instances\n3. Content repetition rate: Weekly tracking with alert threshold at >50%, target reduction to <40%\n4. Organic sentiment: Monitor daily with escalation if negative sentiment exceeds 5%\n5. Official vs. affiliate content ratio: Track weekly with target of at least 1:3 within 90 days\n6. Amazon marketplace reviews: Daily monitoring for fake product concerns with 24-hour response protocol\n7. Clustering efficiency: Improve to >40% within 60 days through more diverse content themes"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 56.02
+}

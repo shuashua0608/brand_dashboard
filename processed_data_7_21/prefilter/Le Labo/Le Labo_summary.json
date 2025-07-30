@@ -1,0 +1,15 @@
+{
+  "brand": "Le Labo",
+  "total_comments": 74,
+  "relevant_comments": 19,
+  "relevance_rate": 25.675675675675674,
+  "avg_processing_time": 3.0398339065345557,
+  "clustering_info": {
+    "total_comments": 74,
+    "clustered_comments": "11",
+    "unique_clusters": 4,
+    "propagated_results": "6",
+    "llm_calls_saved": "6"
+  },
+  "timestamp": "2025-07-23T18:13:19.348131"
+}

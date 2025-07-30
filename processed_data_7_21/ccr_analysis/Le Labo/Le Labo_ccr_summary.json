@@ -1,0 +1,23 @@
+{
+  "brand": "Le Labo",
+  "total_processed": 19,
+  "total_ccr_risks": 0,
+  "ccr_risk_rate": 0.0,
+  "processing_method": "clustered",
+  "processing_time": 7.311914443969727,
+  "throughput": 2.5984986757701547,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {},
+  "clustering_efficiency": {
+    "total_clusters": 0,
+    "comments_in_clusters": 3,
+    "llm_calls_saved": 2,
+    "efficiency_percentage": 10.526315789473683
+  },
+  "comment_preservation": {
+    "original_count": 19,
+    "processed_count": 19,
+    "all_preserved": true
+  }
+}

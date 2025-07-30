@@ -1,0 +1,15 @@
+{
+  "brand": "Olaplex",
+  "total_comments": 43,
+  "relevant_comments": 36,
+  "relevance_rate": 83.72093023255815,
+  "avg_processing_time": 2.9931716253591136,
+  "clustering_info": {
+    "total_comments": 43,
+    "clustered_comments": "3",
+    "unique_clusters": 0,
+    "propagated_results": "2",
+    "llm_calls_saved": "2"
+  },
+  "timestamp": "2025-07-23T18:14:10.388398"
+}

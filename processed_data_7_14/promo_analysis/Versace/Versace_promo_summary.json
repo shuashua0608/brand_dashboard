@@ -1,0 +1,50 @@
+{
+  "brand": "Versace",
+  "total_processed": 474,
+  "promotional_count": 309,
+  "high_intensity_promo_count": 121,
+  "promotional_rate": 0.6518987341772152,
+  "high_intensity_promo_rate": 0.2552742616033755,
+  "duplicate_clusters": 80,
+  "total_duplicates": 605,
+  "repeated_content_rate": 127.63713080168777,
+  "processing_time": 50.107208490371704,
+  "throughput": 9.459716760934327,
+  "platform_distribution": {
+    "TWITTER": 269,
+    "INSTAGRAM": 20,
+    "WEB": 14,
+    "YOUTUBE": 3,
+    "FACEBOOK": 2,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 113,
+    "Influencer": 107,
+    "UGC_Campaign": 66,
+    "Brand_Official": 20,
+    "Spam": 3
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 187,
+    "High": 121,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 23,
+    "comments_in_clusters": 243,
+    "llm_calls_saved": 219,
+    "efficiency_percentage": 46.20253164556962
+  },
+  "comment_preservation": {
+    "original_count": 474,
+    "processed_count": 474,
+    "all_preserved": true
+  }
+}

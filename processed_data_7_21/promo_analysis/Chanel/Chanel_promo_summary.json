@@ -1,0 +1,48 @@
+{
+  "brand": "Chanel",
+  "total_processed": 223,
+  "promotional_count": 98,
+  "high_intensity_promo_count": 42,
+  "promotional_rate": 0.43946188340807174,
+  "high_intensity_promo_rate": 0.18834080717488788,
+  "duplicate_clusters": 39,
+  "total_duplicates": 140,
+  "repeated_content_rate": 62.78026905829597,
+  "processing_time": 40.79100251197815,
+  "throughput": 5.46689186995384,
+  "platform_distribution": {
+    "TWITTER": 63,
+    "WEB": 19,
+    "INSTAGRAM": 12,
+    "YOUTUBE": 3,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 58,
+    "Influencer": 23,
+    "Brand_Official": 14,
+    "Spam": 3
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 50,
+    "High": 42,
+    "Low": 6
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 10,
+    "comments_in_clusters": 45,
+    "llm_calls_saved": 34,
+    "efficiency_percentage": 15.246636771300448
+  },
+  "comment_preservation": {
+    "original_count": 223,
+    "processed_count": 223,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "brand": "Rhode",
+  "total_processed": 192,
+  "promotional_count": 72,
+  "high_intensity_promo_count": 20,
+  "promotional_rate": 0.375,
+  "high_intensity_promo_rate": 0.10416666666666667,
+  "duplicate_clusters": 29,
+  "total_duplicates": 93,
+  "repeated_content_rate": 48.4375,
+  "processing_time": 35.871052265167236,
+  "throughput": 5.352505373432899,
+  "platform_distribution": {
+    "TWITTER": 39,
+    "INSTAGRAM": 19,
+    "WEB": 10,
+    "FACEBOOK": 2,
+    "YOUTUBE": 2
+  },
+  "promo_types": {
+    "Influencer": 38,
+    "Brand_Official": 17,
+    "Affiliate": 12,
+    "Spam": 4,
+    "UGC_Campaign": 1
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 39,
+    "High": 20,
+    "Low": 13
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 8,
+    "comments_in_clusters": 24,
+    "llm_calls_saved": 15,
+    "efficiency_percentage": 7.8125
+  },
+  "comment_preservation": {
+    "original_count": 192,
+    "processed_count": 192,
+    "all_preserved": true
+  }
+}

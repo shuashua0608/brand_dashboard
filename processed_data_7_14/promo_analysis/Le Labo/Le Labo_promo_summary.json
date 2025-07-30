@@ -1,0 +1,41 @@
+{
+  "brand": "Le Labo",
+  "total_processed": 23,
+  "promotional_count": 5,
+  "high_intensity_promo_count": 4,
+  "promotional_rate": 0.21739130434782608,
+  "high_intensity_promo_rate": 0.17391304347826086,
+  "duplicate_clusters": 5,
+  "total_duplicates": 12,
+  "repeated_content_rate": 52.17391304347826,
+  "processing_time": 7.370913743972778,
+  "throughput": 3.120372968522007,
+  "platform_distribution": {
+    "WEB": 5
+  },
+  "promo_types": {
+    "Affiliate": 4,
+    "Brand_Official": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 4,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 1,
+    "comments_in_clusters": 5,
+    "llm_calls_saved": 3,
+    "efficiency_percentage": 13.043478260869565
+  },
+  "comment_preservation": {
+    "original_count": 23,
+    "processed_count": 23,
+    "all_preserved": true
+  }
+}

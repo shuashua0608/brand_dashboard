@@ -1,0 +1,33 @@
+{
+  "brand": "Necessaire",
+  "total_processed": 6,
+  "promotional_count": 0,
+  "high_intensity_promo_count": 0,
+  "promotional_rate": 0.0,
+  "high_intensity_promo_rate": 0.0,
+  "duplicate_clusters": 0,
+  "total_duplicates": 0,
+  "repeated_content_rate": 0.0,
+  "processing_time": 6.086406707763672,
+  "throughput": 0.9858033299592921,
+  "platform_distribution": {},
+  "promo_types": {},
+  "promotional_intensity_distribution": {},
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": false,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 6,
+    "processed_count": 6,
+    "all_preserved": true
+  }
+}

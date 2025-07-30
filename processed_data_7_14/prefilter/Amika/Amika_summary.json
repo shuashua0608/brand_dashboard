@@ -1,0 +1,21 @@
+{
+  "brand": "Amika",
+  "original_comments": 150,
+  "total_comments": 103,
+  "relevant_comments": 69,
+  "relevance_rate": 66.99029126213593,
+  "avg_processing_time": 2.3434507754242535,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 103
+  },
+  "clustering_info": {
+    "total_comments": 103,
+    "clustered_comments": "15",
+    "unique_clusters": 5,
+    "propagated_results": "9",
+    "llm_calls_saved": "9"
+  },
+  "timestamp": "2025-07-29T06:09:35.626539"
+}

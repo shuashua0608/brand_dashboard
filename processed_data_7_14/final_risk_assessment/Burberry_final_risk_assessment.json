@@ -1,0 +1,104 @@
+{
+  "brand": "Burberry",
+  "timestamp": "2025-07-30T17:56:39.820850",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 57.86,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 100,
+      "promotional_risk": 69.67,
+      "sentiment_risk": 25.57,
+      "comment_intensity": 69.4
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 12.288135593220339,
+        "base_score": 77.1637200312448,
+        "high_risks": 2,
+        "medium_risks": 6,
+        "low_risks": 21,
+        "severity_score": 30,
+        "amazon_risks": 1,
+        "amazon_bonus": 8,
+        "total_ccr_risks": 29,
+        "total_risk_bonus": 15,
+        "risk_types_count": 3,
+        "diversity_bonus": 9,
+        "final_score": 100
+      },
+      "promotional": {
+        "promotional_rate": 53.38983050847458,
+        "base_score": 35.59322033898305,
+        "spam_count": 2,
+        "spam_rate": 0.847457627118644,
+        "spam_bonus": 8.274718918272702,
+        "repeated_content_rate": 96.1864406779661,
+        "repetition_bonus": 19.23728813559322,
+        "high_intensity_rate": 26.27118644067797,
+        "intensity_bonus": 6.567796610169493,
+        "final_score": 69.67302400301847
+      },
+      "sentiment": {
+        "negative_pct": 1.3,
+        "organic_negative_pct": 2.727272727272727,
+        "primary_negative_pct": 2.727272727272727,
+        "base_score": 16.89883588275068,
+        "mixed_pct": 3.4,
+        "mixed_bonus": 6.800000000000001,
+        "negative_emotions_pct": 2.5,
+        "emotion_bonus": 1.875,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 25.573835882750682
+      },
+      "intensity": {
+        "total_comments": 236,
+        "actual_daily_avg": 18.2,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 5.88411438855458,
+        "repeated_content_rate": 96.1864406779661,
+        "repetition_score": 57.26481677058199,
+        "avg_clustering_efficiency": 17.372881355932204,
+        "efficiency_score": 6.252044060858099,
+        "final_score": 69.40097521999466
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "100/100 Counterfeit/CCR Risk with multiple high-risk instances identified",
+      "96.2% Content Repetition Rate indicating potential coordinated activity",
+      "53.4% Promotional Rate showing excessive non-organic content",
+      "High Comment Intensity (69.4/100) creating visibility for problematic content",
+      "Presence of suspicious sources (22 instances) and fake product concerns (5 instances)",
+      "##"
+    ],
+    "reasoning": "The Burberry fragrances brand faces a complex risk landscape dominated by counterfeit concerns and promotional content saturation. The perfect 100/100 counterfeit risk score, though weighted at only 5%, signals a critical vulnerability that could directly impact consumer safety and brand trust. This is compounded by the extremely high content repetition rate (96.2%), suggesting potential coordinated promotional or counterfeit-selling networks operating across platforms.\n\nThe promotional content risk (69.67/100) is particularly concerning as over half of all brand mentions (53.4%) are promotional rather than organic consumer engagement. With 84 affiliate promotions identified, there appears to be insufficient control over how the brand is represented by third parties. While sentiment remains largely positive (only 1.3% negative), this is likely skewed by the high proportion of promotional content, masking potential authentic consumer concerns. The combination of high comment volume (18.2 daily average) with repetitive content creates an environment where counterfeit sellers and unauthorized promotions gain significant visibility.\n\n##",
+    "immediate_actions": [
+      "1. Initiate takedown requests for the 2 high-risk counterfeit listings and investigate the 6 medium-risk instances",
+      "2. Conduct emergency audit of the 22 suspicious sources to identify counterfeit distribution networks",
+      "3. Implement temporary monitoring of Amazon listings (responding to the specific Amazon fake concern)",
+      "4. Contact top affiliate promoters to verify authenticity and compliance with brand guidelines",
+      "5. Develop crisis communication plan in case counterfeit products cause consumer harm",
+      "6. Implement 24-hour monitoring of new high-risk counterfeit mentions",
+      "##"
+    ],
+    "long_term_strategy": "1. Develop comprehensive affiliate program guidelines with strict approval processes\n2. Implement digital authentication technology for genuine Burberry fragrances\n3. Create educational content for consumers on identifying authentic products\n4. Establish regular communication channels with major e-commerce platforms for faster counterfeit reporting\n5. Develop sentiment analysis specifically for organic consumer comments to better understand true consumer perception\n6. Implement quarterly audits of promotional content partners\n7. Consider legal action against persistent counterfeit sellers identified through monitoring\n\n##",
+    "business_impact": "1. Revenue loss from counterfeit sales estimated at 5-15% of fragrance category revenue\n2. Potential consumer safety incidents from fake fragrances causing allergic reactions or skin irritation\n3. Brand reputation damage, particularly in the luxury segment where authenticity is paramount\n4. Reduced effectiveness of legitimate marketing due to oversaturation of promotional content\n5. Decreased consumer trust in online purchasing channels\n6. Potential regulatory scrutiny if counterfeit products cause consumer harm\n7. Long-term erosion of brand equity and premium positioning\n\n##",
+    "monitoring_priorities": "1. Counterfeit mentions: Daily tracking with immediate escalation for high-risk instances\n2. Suspicious source tracking: Monitor new sources weekly, escalate when 5+ new suspicious sources appear\n3. Amazon-specific counterfeit concerns: Dedicated tracking with 24-hour response threshold\n4. Promotional content ratio: Target reduction to <40% within 60 days\n5. Content repetition rate: Alert if exceeds 80% in any 7-day period\n6. Organic sentiment: Isolate from promotional content for true consumer perception\n7. Escalation thresholds: Immediate executive notification for any consumer harm reports from counterfeit products"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 57.86
+}

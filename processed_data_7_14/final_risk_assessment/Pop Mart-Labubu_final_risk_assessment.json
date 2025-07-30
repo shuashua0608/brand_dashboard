@@ -1,0 +1,103 @@
+{
+  "brand": "Pop Mart-Labubu",
+  "timestamp": "2025-07-30T18:36:52.991361",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 84.64,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 97.77,
+      "promotional_risk": 49.16,
+      "sentiment_risk": 100,
+      "comment_intensity": 100
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 4.141566265060241,
+        "base_score": 18.767021953377714,
+        "high_risks": 28,
+        "medium_risks": 53,
+        "low_risks": 29,
+        "severity_score": 30,
+        "amazon_risks": 9,
+        "amazon_bonus": 25,
+        "total_ccr_risks": 110,
+        "total_risk_bonus": 15,
+        "risk_types_count": 3,
+        "diversity_bonus": 9,
+        "final_score": 97.76702195337771
+      },
+      "promotional": {
+        "promotional_rate": 24.058734939759034,
+        "base_score": 16.039156626506024,
+        "spam_count": 27,
+        "spam_rate": 1.016566265060241,
+        "spam_bonus": 10.87125796856985,
+        "repeated_content_rate": 96.12198795180723,
+        "repetition_bonus": 19.22439759036145,
+        "high_intensity_rate": 12.085843373493976,
+        "intensity_bonus": 3.021460843373494,
+        "final_score": 49.15627302881082
+      },
+      "sentiment": {
+        "negative_pct": 7.2,
+        "organic_negative_pct": 9.419930589985126,
+        "primary_negative_pct": 9.419930589985126,
+        "base_score": 74.78934815355504,
+        "mixed_pct": 4.5,
+        "mixed_bonus": 9.0,
+        "negative_emotions_pct": 12.2,
+        "emotion_bonus": 9.15,
+        "high_risk_emotion_bonus": 10.0,
+        "final_score": 100
+      },
+      "intensity": {
+        "total_comments": 2656,
+        "actual_daily_avg": 204.3,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 100.0,
+        "repeated_content_rate": 96.12198795180723,
+        "repetition_score": 57.218773363651046,
+        "avg_clustering_efficiency": 28.501506024096386,
+        "efficiency_score": 10.777488809253512,
+        "final_score": 100
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "CRITICAL",
+    "key_factors": [
+      "Extremely high counterfeit risk (97.77/100) with 49 instances of fake product concerns",
+      "100/100 sentiment risk with significant negative organic sentiment (9.4%)",
+      "Very high comment intensity (100/100) with 204.3 daily comments",
+      "Abnormally high content repetition rate (96.1%)",
+      "Substantial promotional content (24.1%) with spam detected"
+    ],
+    "reasoning": "The Pop Mart-Labubu brand faces a critical risk situation driven by multiple severe factors converging simultaneously. The extraordinarily high counterfeit risk score (97.77/100) indicates widespread concerns about product authenticity, with 49 specific mentions of fake products and 23 suspicious source reports. This authenticity crisis is occurring alongside maximum-level sentiment risk (100/100), where nearly 10% of organic comments express negative sentiment. The combination suggests consumers are actively discussing counterfeit concerns in a negative context.\n\nWhat makes this situation particularly alarming is the extremely high comment intensity (204.3 daily comments) paired with a 96.1% content repetition rate. This pattern suggests coordinated activity potentially amplifying negative messaging about counterfeits. The promotional content risk (49.16/100) adds another dimension, with 24.1% of content being promotional in nature and detected spam activity. The presence of influencer (311) and affiliate (237) promotions amid counterfeit concerns creates a dangerous environment where promotional content may be inadvertently driving traffic to counterfeit products.",
+    "immediate_actions": [
+      "1. Initiate emergency counterfeit investigation focusing on identified suspicious sources",
+      "2. Deploy social listening tools specifically targeting the 49 fake product mentions to identify distribution channels",
+      "3. Contact major influencers (from the 311 identified) to verify they are promoting authentic products",
+      "4. Implement temporary pause on affiliate marketing program pending review",
+      "5. Prepare crisis communication addressing authenticity concerns for immediate release",
+      "6. Establish daily monitoring of Amazon-specific fake concerns (9 instances identified)",
+      "7. Analyze the content repetition patterns to identify potential coordinated negative campaigns"
+    ],
+    "long_term_strategy": "1. Develop and implement enhanced product authentication features (QR codes, holograms, etc.)\n2. Create an official authentication guide and verification portal for consumers\n3. Establish a vetted partner program for trusted retailers and resellers\n4. Implement legal action against identified counterfeit manufacturers and distributors\n5. Redesign affiliate and influencer programs with stricter authentication requirements\n6. Launch consumer education campaign about spotting authentic Pop Mart-Labubu products\n7. Develop relationships with marketplace platforms (especially Amazon) to improve takedown procedures\n8. Consider limited edition releases with enhanced security features to rebuild trust",
+    "business_impact": "1. Significant revenue loss as consumers avoid purchases due to authenticity concerns\n2. Long-term brand value erosion and collector market destabilization\n3. Potential legal liability if promotional partners unknowingly promote counterfeits\n4. Reduced collector confidence in secondary market value of legitimate products\n5. Damaged relationships with retail partners as consumers question authenticity\n6. Increased customer service costs handling authentication inquiries and complaints\n7. Potential permanent loss of collector base to competing authentic collectible brands",
+    "monitoring_priorities": "1. Daily tracking of counterfeit mentions with escalation threshold of >10 new instances\n2. Sentiment tracking with alert if negative sentiment exceeds 12% for 3 consecutive days\n3. Monitor content repetition rate with investigation trigger if it remains above 90%\n4. Track Amazon-specific counterfeit mentions with immediate escalation for any increase\n5. Monitor conversion rates on official channels vs. third-party sellers\n6. Track authentication inquiries to customer service with weekly reporting\n7. Implement social media velocity monitoring with alerts for unusual spikes in brand mentions\n8. Weekly competitive analysis to identify if competitors are capitalizing on authenticity concerns"
+  },
+  "final_risk_level": "CRITICAL",
+  "final_risk_score": 84.64
+}

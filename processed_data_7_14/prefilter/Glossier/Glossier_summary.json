@@ -1,0 +1,21 @@
+{
+  "brand": "Glossier",
+  "original_comments": 178,
+  "total_comments": 93,
+  "relevant_comments": 27,
+  "relevance_rate": 29.03225806451613,
+  "avg_processing_time": 2.6262832405746623,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 93
+  },
+  "clustering_info": {
+    "total_comments": 93,
+    "clustered_comments": "6",
+    "unique_clusters": 1,
+    "propagated_results": "4",
+    "llm_calls_saved": "4"
+  },
+  "timestamp": "2025-07-29T06:16:05.672781"
+}

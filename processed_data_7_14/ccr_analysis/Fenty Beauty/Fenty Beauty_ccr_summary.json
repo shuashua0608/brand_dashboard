@@ -1,0 +1,25 @@
+{
+  "brand": "Fenty Beauty",
+  "total_processed": 74,
+  "total_ccr_risks": 1,
+  "ccr_risk_rate": 0.013513513513513514,
+  "processing_method": "clustered",
+  "processing_time": 10.017077922821045,
+  "throughput": 7.387383882819977,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {
+    "Low": 1
+  },
+  "clustering_efficiency": {
+    "total_clusters": 3,
+    "comments_in_clusters": 37,
+    "llm_calls_saved": 33,
+    "efficiency_percentage": 44.5945945945946
+  },
+  "comment_preservation": {
+    "original_count": 74,
+    "processed_count": 74,
+    "all_preserved": true
+  }
+}

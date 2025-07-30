@@ -1,0 +1,44 @@
+{
+  "brand": "Giorgio Armani",
+  "total_processed": 20,
+  "promotional_count": 6,
+  "high_intensity_promo_count": 3,
+  "promotional_rate": 0.3,
+  "high_intensity_promo_rate": 0.15,
+  "duplicate_clusters": 1,
+  "total_duplicates": 2,
+  "repeated_content_rate": 10.0,
+  "processing_time": 7.6863203048706055,
+  "throughput": 2.6020253133773985,
+  "platform_distribution": {
+    "WEB": 3,
+    "TWITTER": 2,
+    "INSTAGRAM": 1
+  },
+  "promo_types": {
+    "Affiliate": 3,
+    "Brand_Official": 2,
+    "Influencer": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 3,
+    "Medium": 3
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": false,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 20,
+    "processed_count": 20,
+    "all_preserved": true
+  }
+}

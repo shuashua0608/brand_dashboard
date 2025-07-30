@@ -1,0 +1,101 @@
+{
+  "brand": "Kayali",
+  "timestamp": "2025-07-30T18:03:36.557219",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 39.33,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 100,
+      "promotional_risk": 55.79,
+      "sentiment_risk": 49.12,
+      "comment_intensity": 8.17
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 16.666666666666664,
+        "base_score": 100.0,
+        "high_risks": 1,
+        "medium_risks": 3,
+        "low_risks": 2,
+        "severity_score": 29,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 6,
+        "total_risk_bonus": 12,
+        "risk_types_count": 1,
+        "diversity_bonus": 3,
+        "final_score": 100
+      },
+      "promotional": {
+        "promotional_rate": 30.555555555555557,
+        "base_score": 20.37037037037037,
+        "spam_count": 1,
+        "spam_rate": 2.7777777777777777,
+        "spam_bonus": 30.0,
+        "repeated_content_rate": 16.666666666666664,
+        "repetition_bonus": 3.333333333333333,
+        "high_intensity_rate": 8.333333333333332,
+        "intensity_bonus": 2.083333333333333,
+        "final_score": 55.78703703703704
+      },
+      "sentiment": {
+        "negative_pct": 2.8,
+        "organic_negative_pct": 4.0,
+        "primary_negative_pct": 4.0,
+        "base_score": 26.75805205867435,
+        "mixed_pct": 5.6,
+        "mixed_bonus": 11.2,
+        "negative_emotions_pct": 8.3,
+        "emotion_bonus": 6.225,
+        "high_risk_emotion_bonus": 4.939386311845556,
+        "final_score": 49.122438370519916
+      },
+      "intensity": {
+        "total_comments": 36,
+        "actual_daily_avg": 2.8,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 0.350563627067423,
+        "repeated_content_rate": 16.666666666666664,
+        "repetition_score": 6.988271187715791,
+        "avg_clustering_efficiency": 2.7777777777777772,
+        "efficiency_score": 0.8322048453334183,
+        "final_score": 8.171039660116632
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high counterfeit risk score (100/100) with confirmed fake product reports",
+      "Significant promotional content (30.6% of all comments) with multiple promotion types",
+      "Presence of spam content (2.78% of comments)",
+      "Content repetition rate of 16.7% suggesting coordinated activity",
+      "Low overall comment volume (36 comments over 13 days) magnifying impact of negative content"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level for Kayali, primarily driven by the perfect counterfeit risk score of 100/100. Although the absolute number of counterfeit reports is relatively small (2 fake product instances), in the luxury fragrance category, even limited counterfeit circulation poses significant brand integrity risks. This is compounded by the promotional content risk (55.79/100), with nearly one-third of all comments being promotional in nature across multiple channels (influencer, affiliate, brand official), suggesting potential market manipulation or coordinated promotional activity.\n\nThe relatively low comment volume (36 comments over 13 days) is concerning as it indicates limited organic engagement while amplifying the impact of any negative content. The 16.7% content repetition rate suggests potential coordinated activity or bot behavior. While sentiment metrics show limited negative sentiment (2.8% overall), the presence of spam content and the multi-faceted promotional activity creates an environment where brand perception could rapidly deteriorate if counterfeit issues escalate or negative sentiment increases.",
+    "immediate_actions": [
+      "1. Initiate counterfeit investigation focusing on reported fake products and implement takedown procedures for identified counterfeit listings",
+      "2. Conduct audit of all influencer and affiliate promotional content to ensure compliance with disclosure requirements and brand guidelines",
+      "3. Implement enhanced comment monitoring for the next 7 days to identify patterns in promotional content and potential coordinated activity",
+      "4. Engage with legitimate customers who reported counterfeit products to gather intelligence and offer resolution",
+      "5. Review Amazon and other marketplace listings to verify product authenticity and seller authorization"
+    ],
+    "long_term_strategy": "1. Develop a comprehensive anti-counterfeit strategy including product authentication features and consumer education\n2. Establish clear influencer and affiliate guidelines with compliance monitoring processes\n3. Implement a promotional content calendar to better coordinate and authenticate official brand communications\n4. Develop a sentiment recovery plan focusing on authentic customer engagement and trust-building\n5. Consider increasing organic social media activity to dilute the impact of promotional content\n6. Establish a verified seller program across key marketplaces to combat unauthorized distribution",
+    "business_impact": "1. Revenue loss from diverted sales to counterfeit products\n2. Brand reputation damage in the premium fragrance category where authenticity is paramount\n3. Reduced customer trust and potential safety concerns from counterfeit product usage\n4. Diminished marketing effectiveness due to skepticism about promotional content\n5. Potential regulatory scrutiny regarding undisclosed promotional relationships\n6. Long-term brand value erosion if perceived as having widespread counterfeit issues",
+    "monitoring_priorities": "1. Counterfeit mentions and reports (Threshold: Any new reports require immediate investigation)\n2. Promotional content ratio (Threshold: Alert if exceeds 35% of total content)\n3. Content repetition rate (Threshold: Alert if exceeds 20%)\n4. Negative sentiment in organic comments (Threshold: Alert if exceeds 8%)\n5. Spam content detection (Threshold: Alert if exceeds 5% of comments)\n6. Marketplace listing monitoring (Threshold: Daily checks of top 5 marketplaces)\n7. Geographic distribution of counterfeit reports (Threshold: Multiple reports from same region)"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 39.33
+}

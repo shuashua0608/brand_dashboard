@@ -1,0 +1,15 @@
+{
+  "brand": "La Roche-Posay",
+  "total_comments": 66,
+  "relevant_comments": 63,
+  "relevance_rate": 95.45454545454545,
+  "avg_processing_time": 2.7780013409527866,
+  "clustering_info": {
+    "total_comments": 66,
+    "clustered_comments": "9",
+    "unique_clusters": 3,
+    "propagated_results": "5",
+    "llm_calls_saved": "5"
+  },
+  "timestamp": "2025-07-23T18:13:10.033522"
+}

@@ -1,0 +1,48 @@
+{
+  "brand": "NYX",
+  "total_processed": 131,
+  "promotional_count": 99,
+  "high_intensity_promo_count": 47,
+  "promotional_rate": 0.7557251908396947,
+  "high_intensity_promo_rate": 0.35877862595419846,
+  "duplicate_clusters": 26,
+  "total_duplicates": 141,
+  "repeated_content_rate": 107.63358778625954,
+  "processing_time": 18.73135280609131,
+  "throughput": 6.993621942639385,
+  "platform_distribution": {
+    "TWITTER": 73,
+    "INSTAGRAM": 14,
+    "WEB": 8,
+    "YOUTUBE": 2,
+    "WORDPRESS": 1,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 61,
+    "Influencer": 35,
+    "UGC_Campaign": 3
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 51,
+    "High": 47,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 9,
+    "comments_in_clusters": 62,
+    "llm_calls_saved": 52,
+    "efficiency_percentage": 39.69465648854962
+  },
+  "comment_preservation": {
+    "original_count": 131,
+    "processed_count": 131,
+    "all_preserved": true
+  }
+}

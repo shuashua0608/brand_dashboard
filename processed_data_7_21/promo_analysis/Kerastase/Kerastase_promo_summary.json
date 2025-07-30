@@ -1,0 +1,44 @@
+{
+  "brand": "Kerastase",
+  "total_processed": 20,
+  "promotional_count": 14,
+  "high_intensity_promo_count": 12,
+  "promotional_rate": 0.7,
+  "high_intensity_promo_rate": 0.6,
+  "duplicate_clusters": 8,
+  "total_duplicates": 25,
+  "repeated_content_rate": 125.0,
+  "processing_time": 7.06422233581543,
+  "throughput": 2.8311679685675384,
+  "platform_distribution": {
+    "TWITTER": 9,
+    "WEB": 4,
+    "PRINT": 1
+  },
+  "promo_types": {
+    "Affiliate": 9,
+    "Brand_Official": 4,
+    "Influencer": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 12,
+    "Medium": 2
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 2,
+    "comments_in_clusters": 8,
+    "llm_calls_saved": 5,
+    "efficiency_percentage": 25.0
+  },
+  "comment_preservation": {
+    "original_count": 20,
+    "processed_count": 20,
+    "all_preserved": true
+  }
+}

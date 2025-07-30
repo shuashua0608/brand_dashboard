@@ -1,0 +1,27 @@
+{
+  "brand": "Colgate",
+  "total_processed": 240,
+  "total_ccr_risks": 3,
+  "ccr_risk_rate": 0.0125,
+  "processing_method": "clustered",
+  "processing_time": 39.015247106552124,
+  "throughput": 6.151441238973852,
+  "sample_size": "all",
+  "risk_breakdown": {
+    "Amazon_fake_concern": 3
+  },
+  "risk_level_distribution": {
+    "High": 3
+  },
+  "clustering_efficiency": {
+    "total_clusters": 8,
+    "comments_in_clusters": 31,
+    "llm_calls_saved": 22,
+    "efficiency_percentage": 9.166666666666666
+  },
+  "comment_preservation": {
+    "original_count": 240,
+    "processed_count": 240,
+    "all_preserved": true
+  }
+}

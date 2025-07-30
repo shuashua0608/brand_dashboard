@@ -1,0 +1,21 @@
+{
+  "brand": "Kayali",
+  "original_comments": 100,
+  "total_comments": 61,
+  "relevant_comments": 36,
+  "relevance_rate": 59.01639344262295,
+  "avg_processing_time": 2.7828695695908343,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 61
+  },
+  "clustering_info": {
+    "total_comments": 61,
+    "clustered_comments": "6",
+    "unique_clusters": 2,
+    "propagated_results": "3",
+    "llm_calls_saved": "3"
+  },
+  "timestamp": "2025-07-29T06:16:45.553329"
+}

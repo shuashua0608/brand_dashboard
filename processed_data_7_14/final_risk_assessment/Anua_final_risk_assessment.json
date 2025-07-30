@@ -1,0 +1,102 @@
+{
+  "brand": "Anua",
+  "timestamp": "2025-07-30T17:55:18.356356",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 68.83,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 23.25,
+      "promotional_risk": 99.23,
+      "sentiment_risk": 9.65,
+      "comment_intensity": 100
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 0.1488095238095238,
+        "base_score": 0.24860010529832322,
+        "high_risks": 1,
+        "medium_risks": 0,
+        "low_risks": 0,
+        "severity_score": 10,
+        "amazon_risks": 1,
+        "amazon_bonus": 8,
+        "total_ccr_risks": 1,
+        "total_risk_bonus": 2,
+        "risk_types_count": 1,
+        "diversity_bonus": 3,
+        "final_score": 23.248600105298323
+      },
+      "promotional": {
+        "promotional_rate": 90.77380952380952,
+        "base_score": 60.0,
+        "spam_count": 5,
+        "spam_rate": 0.744047619047619,
+        "spam_bonus": 6.807338678491441,
+        "repeated_content_rate": 132.88690476190476,
+        "repetition_bonus": 20.0,
+        "high_intensity_rate": 49.702380952380956,
+        "intensity_bonus": 12.425595238095239,
+        "final_score": 99.23293391658669
+      },
+      "sentiment": {
+        "negative_pct": 0.1,
+        "organic_negative_pct": 1.6129032258064515,
+        "primary_negative_pct": 1.6129032258064515,
+        "base_score": 8.997305713709048,
+        "mixed_pct": 0.1,
+        "mixed_bonus": 0.2,
+        "negative_emotions_pct": 0.6,
+        "emotion_bonus": 0.44999999999999996,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 9.647305713709047
+      },
+      "intensity": {
+        "total_comments": 672,
+        "actual_daily_avg": 51.7,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 28.27268223506003,
+        "repeated_content_rate": 132.88690476190476,
+        "repetition_score": 60.0,
+        "avg_clustering_efficiency": 34.077380952380956,
+        "efficiency_score": 13.118247521057453,
+        "final_score": 100
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "CRITICAL",
+    "key_factors": [
+      "Extremely high promotional content rate (90.8%) indicating potential artificial engagement",
+      "Excessive content repetition rate (132.9%) suggesting coordinated posting behavior",
+      "Very high comment intensity (100/100) with poor clustering efficiency (34.1%)",
+      "Presence of spam content (5 instances) alongside legitimate marketing",
+      "Potential counterfeit concerns on Amazon marketplace"
+    ],
+    "reasoning": "The risk assessment for Anua skincare reveals a critical situation primarily driven by abnormal promotional activity patterns. With over 90% of all content being promotional in nature (primarily affiliate and influencer marketing), the brand's social presence appears manufactured rather than organic. This is compounded by the extremely high content repetition rate of 132.9%, indicating coordinated posting behavior that likely violates platform terms of service and creates an artificial perception of popularity.\n\nWhile sentiment metrics are positive (minimal negative sentiment at 0.1%), this is actually concerning in context - the near absence of negative feedback despite high volume suggests potential comment filtering or manipulation. The combination of high comment volume (51.7 daily average), poor clustering efficiency, and predominance of affiliate marketing (414 instances) points to a coordinated marketing campaign that risks platform penalties and consumer trust issues. The Amazon counterfeit concern, though limited, adds another dimension of risk to the brand's digital presence.",
+    "immediate_actions": [
+      "1. Conduct emergency audit of all affiliate and influencer partnerships to identify TOS violations",
+      "2. Temporarily pause highest-volume affiliate programs showing repetitive content patterns",
+      "3. Implement immediate disclosure requirements for all promotional content",
+      "4. Contact Amazon regarding the counterfeit concern and document resolution steps",
+      "5. Deploy sentiment monitoring tools to verify if negative comments are being suppressed",
+      "6. Establish crisis communication plan if platforms take action against promotional content"
+    ],
+    "long_term_strategy": "1. Develop a balanced content strategy with target of reducing promotional content to <50% of total engagement\n2. Implement affiliate/influencer guidelines with strict content originality requirements\n3. Create an authentic UGC program to generate diverse, genuine customer content\n4. Establish regular auditing process for promotional partners with compliance metrics\n5. Develop platform-specific strategies that align with each platform's promotional content policies\n6. Invest in brand protection monitoring across marketplaces to address counterfeit concerns\n7. Build a sentiment diversification strategy to encourage authentic feedback",
+    "business_impact": "1. Platform penalties including shadowbanning, reduced reach, or account suspension\n2. Consumer trust erosion when artificial promotion tactics are recognized\n3. Potential regulatory scrutiny regarding undisclosed promotional content\n4. Wasted marketing spend on ineffective, repetitive promotional activities\n5. Marketplace reputation damage if counterfeit issues persist\n6. Difficulty measuring true brand performance due to artificial engagement metrics\n7. Competitive vulnerability as resources are diverted to addressing platform violations",
+    "monitoring_priorities": "1. Promotional content ratio: Track daily with alert threshold at >70%, target <50%\n2. Content repetition rate: Monitor hourly with alert threshold at >50%, target <30%\n3. Platform policy enforcement actions: Immediate alert for any warnings or restrictions\n4. Sentiment distribution: Alert if negative sentiment remains <1% (potential suppression)\n5. Clustering efficiency: Track daily with alert threshold at <50%, target >70%\n6. Marketplace listing integrity: Daily monitoring of Amazon and other key retail channels\n7. Engagement authenticity score: Develop and implement within 30 days"
+  },
+  "final_risk_level": "CRITICAL",
+  "final_risk_score": 68.83
+}

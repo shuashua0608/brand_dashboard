@@ -1,0 +1,15 @@
+{
+  "brand": "Summer Fridays",
+  "total_comments": 107,
+  "relevant_comments": 13,
+  "relevance_rate": 12.149532710280374,
+  "avg_processing_time": 2.8137260708853464,
+  "clustering_info": {
+    "total_comments": 107,
+    "clustered_comments": "16",
+    "unique_clusters": 6,
+    "propagated_results": "9",
+    "llm_calls_saved": "9"
+  },
+  "timestamp": "2025-07-23T18:18:39.710311"
+}

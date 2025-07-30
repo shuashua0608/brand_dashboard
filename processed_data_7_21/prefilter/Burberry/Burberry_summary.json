@@ -1,0 +1,15 @@
+{
+  "brand": "Burberry",
+  "total_comments": 199,
+  "relevant_comments": 105,
+  "relevance_rate": 52.76381909547738,
+  "avg_processing_time": 2.574480804366682,
+  "clustering_info": {
+    "total_comments": 199,
+    "clustered_comments": "23",
+    "unique_clusters": 8,
+    "propagated_results": "14",
+    "llm_calls_saved": "14"
+  },
+  "timestamp": "2025-07-23T18:09:01.114242"
+}

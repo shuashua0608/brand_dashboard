@@ -1,0 +1,101 @@
+{
+  "brand": "Le Labo",
+  "timestamp": "2025-07-30T18:04:38.758096",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 27.64,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 100,
+      "promotional_risk": 29.28,
+      "sentiment_risk": 8.6,
+      "comment_intensity": 32.23
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 17.391304347826086,
+        "base_score": 100.0,
+        "high_risks": 0,
+        "medium_risks": 3,
+        "low_risks": 1,
+        "severity_score": 17,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 4,
+        "total_risk_bonus": 8,
+        "risk_types_count": 1,
+        "diversity_bonus": 3,
+        "final_score": 100
+      },
+      "promotional": {
+        "promotional_rate": 21.73913043478261,
+        "base_score": 14.492753623188406,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 52.17391304347826,
+        "repetition_bonus": 10.434782608695652,
+        "high_intensity_rate": 17.391304347826086,
+        "intensity_bonus": 4.3478260869565215,
+        "final_score": 29.27536231884058
+      },
+      "sentiment": {
+        "negative_pct": 0,
+        "organic_negative_pct": 0.0,
+        "primary_negative_pct": 0.0,
+        "base_score": 0.0,
+        "mixed_pct": 4.3,
+        "mixed_bonus": 8.6,
+        "negative_emotions_pct": 0.0,
+        "emotion_bonus": 0.0,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 8.6
+      },
+      "intensity": {
+        "total_comments": 23,
+        "actual_daily_avg": 1.8,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 0.1790213618203065,
+        "repeated_content_rate": 52.17391304347826,
+        "repetition_score": 27.48497475614118,
+        "avg_clustering_efficiency": 13.043478260869565,
+        "efficiency_score": 4.561374721853475,
+        "final_score": 32.225370839814964
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high counterfeit/CCR risk score (100/100)",
+      "High content repetition rate (52.2%)",
+      "Presence of suspicious source indicators",
+      "Significant promotional content (21.7% rate)",
+      "Multiple affiliate promotions detected (4 instances)"
+    ],
+    "reasoning": "The calculated HIGH risk level is appropriate based on the comprehensive analysis. The most concerning element is the perfect 100/100 counterfeit risk score, which despite its relatively low weighting (5%), indicates potential unauthorized sales or distribution channels for Le Labo products. This is particularly problematic for a luxury fragrance brand where product authenticity is central to brand value. The high content repetition rate (52.2%) suggests coordinated posting behavior that could indicate manipulation of brand perception or unauthorized promotional activities.\n\nThe combination of suspicious source indicators, affiliate promotions, and high content repetition creates a concerning pattern that could damage Le Labo's luxury positioning. While sentiment remains largely positive (minimal negative sentiment at 0%), this doesn't mitigate the authenticity risks. The promotional content rate of 21.7% with multiple affiliate promotions suggests unauthorized parties may be capitalizing on the brand's reputation, potentially directing consumers to unauthorized sales channels where counterfeit products might be sold.",
+    "immediate_actions": [
+      "1. Conduct immediate investigation of identified suspicious sources and potential counterfeit sellers",
+      "2. Issue cease and desist notices to unauthorized affiliates promoting Le Labo products",
+      "3. Implement enhanced social listening focused on counterfeit indicators and suspicious promotional patterns",
+      "4. Contact authorized retailers to verify any unusual sales patterns or customer complaints about product authenticity",
+      "5. Prepare customer communication strategy regarding authentic product verification methods"
+    ],
+    "long_term_strategy": "1. Develop comprehensive anti-counterfeit strategy including product authentication features\n2. Establish formal affiliate program with strict guidelines and approval processes\n3. Create brand protection team focused on monitoring and addressing unauthorized sales channels\n4. Implement regular market sweeps for counterfeit products, particularly in high-risk markets\n5. Enhance customer education about authorized retailers and how to identify authentic Le Labo products\n6. Develop relationships with e-commerce platforms to expedite takedown of unauthorized sellers",
+    "business_impact": "1. Revenue loss from diverted sales to counterfeit products\n2. Brand equity damage from consumers experiencing inferior counterfeit products\n3. Erosion of luxury positioning if products become widely available through unauthorized channels\n4. Customer trust deterioration if authenticity concerns spread\n5. Potential legal liability if counterfeit products cause adverse reactions\n6. Reduced wholesale pricing power if perceived exclusivity diminishes",
+    "monitoring_priorities": "1. Counterfeit indicators: Track suspicious source mentions (escalate if >3 new instances weekly)\n2. Promotional content: Monitor affiliate promotion rate (threshold: >15% of total mentions)\n3. Content repetition: Track repetition rate (escalate if >40%)\n4. Sentiment tracking: Watch for increases in negative sentiment related to product quality or authenticity (threshold: >5%)\n5. Sales channel monitoring: Track mentions of unauthorized sellers (escalate any new channels immediately)\n6. Geographic spread: Monitor for counterfeit discussions in new markets (escalate immediately)"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 27.64
+}

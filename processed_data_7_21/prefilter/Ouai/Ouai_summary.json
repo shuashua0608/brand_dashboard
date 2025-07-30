@@ -1,0 +1,15 @@
+{
+  "brand": "Ouai",
+  "total_comments": 97,
+  "relevant_comments": 44,
+  "relevance_rate": 45.36082474226804,
+  "avg_processing_time": 3.0186007563600836,
+  "clustering_info": {
+    "total_comments": 97,
+    "clustered_comments": "38",
+    "unique_clusters": 9,
+    "propagated_results": "28",
+    "llm_calls_saved": "28"
+  },
+  "timestamp": "2025-07-23T18:14:41.095713"
+}

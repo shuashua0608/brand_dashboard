@@ -1,0 +1,42 @@
+{
+  "brand": "Ouai",
+  "total_processed": 44,
+  "promotional_count": 37,
+  "high_intensity_promo_count": 6,
+  "promotional_rate": 0.8409090909090909,
+  "high_intensity_promo_rate": 0.13636363636363635,
+  "duplicate_clusters": 17,
+  "total_duplicates": 72,
+  "repeated_content_rate": 163.63636363636365,
+  "processing_time": 7.824885129928589,
+  "throughput": 5.62308574111957,
+  "platform_distribution": {
+    "TWITTER": 34,
+    "INSTAGRAM": 2,
+    "WEB": 1
+  },
+  "promo_types": {
+    "Affiliate": 37
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 31,
+    "High": 6
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 8,
+    "comments_in_clusters": 35,
+    "llm_calls_saved": 26,
+    "efficiency_percentage": 59.09090909090909
+  },
+  "comment_preservation": {
+    "original_count": 44,
+    "processed_count": 44,
+    "all_preserved": true
+  }
+}

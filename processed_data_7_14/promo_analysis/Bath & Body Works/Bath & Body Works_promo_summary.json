@@ -1,0 +1,47 @@
+{
+  "brand": "Bath & Body Works",
+  "total_processed": 83,
+  "promotional_count": 45,
+  "high_intensity_promo_count": 18,
+  "promotional_rate": 0.5421686746987951,
+  "high_intensity_promo_rate": 0.21686746987951808,
+  "duplicate_clusters": 20,
+  "total_duplicates": 57,
+  "repeated_content_rate": 68.67469879518072,
+  "processing_time": 16.188809633255005,
+  "throughput": 5.126998332817605,
+  "platform_distribution": {
+    "TWITTER": 30,
+    "INSTAGRAM": 7,
+    "WEB": 5,
+    "REDDIT": 2,
+    "LINKEDIN": 1
+  },
+  "promo_types": {
+    "Affiliate": 27,
+    "Brand_Official": 13,
+    "Influencer": 5
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 26,
+    "High": 18,
+    "Low": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 9,
+    "comments_in_clusters": 26,
+    "llm_calls_saved": 16,
+    "efficiency_percentage": 19.27710843373494
+  },
+  "comment_preservation": {
+    "original_count": 83,
+    "processed_count": 83,
+    "all_preserved": true
+  }
+}

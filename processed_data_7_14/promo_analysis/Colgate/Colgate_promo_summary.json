@@ -1,0 +1,50 @@
+{
+  "brand": "Colgate",
+  "total_processed": 481,
+  "promotional_count": 401,
+  "high_intensity_promo_count": 371,
+  "promotional_rate": 0.8336798336798337,
+  "high_intensity_promo_rate": 0.7713097713097713,
+  "duplicate_clusters": 111,
+  "total_duplicates": 325,
+  "repeated_content_rate": 67.56756756756756,
+  "processing_time": 72.92502307891846,
+  "throughput": 6.595815533434503,
+  "platform_distribution": {
+    "TWITTER": 372,
+    "INSTAGRAM": 18,
+    "WEB": 8,
+    "YOUTUBE": 1,
+    "FACEBOOK": 1,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 377,
+    "Brand_Official": 16,
+    "Influencer": 4,
+    "Spam": 2,
+    "UGC_Campaign": 2
+  },
+  "promotional_intensity_distribution": {
+    "High": 371,
+    "Medium": 28,
+    "Low": 2
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 41,
+    "comments_in_clusters": 109,
+    "llm_calls_saved": 67,
+    "efficiency_percentage": 13.92931392931393
+  },
+  "comment_preservation": {
+    "original_count": 481,
+    "processed_count": 481,
+    "all_preserved": true
+  }
+}

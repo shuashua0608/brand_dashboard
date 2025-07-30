@@ -1,0 +1,366 @@
+{
+  "brands": [
+    {
+      "name": "Anua",
+      "category": "SKINCARE",
+      "description": "Korean skincare brand focused on minimal, gentle formulations for sensitive skin",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/anua_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Dior",
+      "category": "FRAGRANCES",
+      "description": "French luxury goods company known for haute couture, accessories, fragrances, and cosmetics",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/dior_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Fenty Beauty",
+      "category": "MAKEUP",
+      "description": "Rihanna's makeup brand known for inclusive shade ranges and innovative formulas",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/fenty_beauty_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "K18",
+      "category": "HAIRCARE",
+      "description": "Professional haircare brand known for patented molecular repair technology for damaged hair",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/k18_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "La Roche-Posay",
+      "category": "SKINCARE",
+      "description": "French pharmacy skincare brand specializing in dermatological solutions for sensitive skin",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/la_roche_posay_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Rhode",
+      "category": "MAKEUP",
+      "description": "Hailey Bieber's skincare brand focused on minimalist, effective formulations for glowing skin",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/rhode_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Pop Mart-Labubu",
+      "category": "TOYS & COLLECTIBLES",
+      "description": "Designer toy monster elves by Kasing Lung sold at Pop Mart",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/labubu_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Oral-B",
+      "category": "ORAL CARE",
+      "description": "Global oral care brand specializing in toothbrushes, toothpaste, and dental hygiene products",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/oral_b_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "The Ordinary",
+      "category": "SKINCARE",
+      "description": "Clinical skincare brand known for single-ingredient formulations and transparent pricing",
+      "risk_level": "Critical",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Versace",
+      "category": "FRAGRANCES",
+      "description": "Italian luxury fashion company known for bold designs, distinctive patterns, and fragrances",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/versace_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "YSL",
+      "category": "FRAGRANCES",
+      "description": "French luxury fashion house (Yves Saint Laurent) offering high-end clothing, accessories, and beauty products",
+      "risk_level": "Critical",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/ysl_processed.csv",
+      "tt_risk_level": "High"
+    },
+    {
+      "name": "Giorgio Armani",
+      "category": "FRAGRANCES",
+      "description": "Italian luxury fashion house offering high-end clothing, accessories, and beauty products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/Giorgio_Armani_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "E.L.F.",
+      "category": "MAKEUP",
+      "description": "Affordable cruelty-free makeup and skincare brand known for budget-friendly dupes of high-end products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/elf_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Drunk Elephant",
+      "category": "SKINCARE",
+      "description": "Clean skincare brand focused on biocompatible ingredients and avoiding the 'Suspicious Six'",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/drunk_elephant_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Charlotte Tilbury",
+      "category": "MAKEUP",
+      "description": "Luxury makeup and skincare brand founded by celebrity makeup artist Charlotte Tilbury",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/Charlotte_Tilbury_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Bath & Body Works",
+      "category": "FRAGRANCES",
+      "description": "American retsoaps, and candles",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/bath_body_works_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Olaplex",
+      "category": "HAIRCARE",
+      "description": "Bond-building technology for hair repair",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/olaplex_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "NYX",
+      "category": "MAKEUP",
+      "description": "Affordable professional makeup products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/nyx_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Le Labo",
+      "category": "FRAGRANCES",
+      "description": "Handcrafted, personalized luxury fragrances",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/lelabo_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Loreal",
+      "category": "MAKEUP",
+      "description": "Global beauty and personal care products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/loreal_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Kayali",
+      "category": "FRAGRANCES",
+      "description": "Middle Eastern-inspired layerable fragrances",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/kayali_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Huda Beauty",
+      "category": "MAKEUP",
+      "description": "Bold makeup by beauty influencer Huda Kattan",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/huda_beauty_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Glossier",
+      "category": "MAKEUP",
+      "description": "Minimalist makeup with 'skin first' philosophy",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/glossier_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Supergoop!",
+      "category": "SKINCARE",
+      "description": "Innovative sunscreen and SPF products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/supergoop_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Optimum Nutrition",
+      "category": "GYM SUPPLEMENTS",
+      "description": "Protein powders and performance supplements",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/optimum_nutrition_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Pantene",
+      "category": "HAIRCARE",
+      "description": "Mass-market haircare products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/pantene_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Colgate",
+      "category": "ORAL CARE",
+      "description": "Oral hygiene and dental care products",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/colgate_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "GNC",
+      "category": "GYM SUPPLEMENTS",
+      "description": "Health and nutrition supplements",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/gnc_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Givenchy",
+      "category": "FRAGRANCES",
+      "description": "French luxury fashion and fragrances",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/givenchy_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Glow Recipe",
+      "category": "SKINCARE",
+      "description": "Korean-inspired fruit-based skincare",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/glow_recipe_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Chanel",
+      "category": "FRAGRANCES",
+      "description": "Iconic French luxury fashion and fragrances",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/chanel_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Burberry",
+      "category": "FRAGRANCES",
+      "description": "British luxury fashion and fragrances",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/burberry_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Summer Fridays",
+      "category": "SKINCARE",
+      "description": "Clean skincare masks and formulations",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/summer_fridays_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Rare Beauty",
+      "category": "MAKEUP",
+      "description": "Selena Gomez's makeup brand",
+      "risk_level": "High",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Ouai",
+      "category": "HAIRCARE",
+      "description": "Jen Atkin's salon-quality haircare",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/ouai_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Sol de Janeiro",
+      "category": "FRAGRANCES",
+      "description": "Brazilian-inspired scents and body care",
+      "risk_level": "High",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/sol_del_janeiro_processed.csv",
+      "tt_risk_level": "Medium"
+    },
+    {
+      "name": "Kerastase",
+      "category": "HAIRCARE",
+      "description": "Luxury professional haircare products",
+      "risk_level": "Medium",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/kerastase_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Redken",
+      "category": "HAIRCARE",
+      "description": "Professional salon haircare products",
+      "risk_level": "Medium",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/redken_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "EHPlabs",
+      "category": "GYM SUPPLEMENTS",
+      "description": "Pre-workout and protein supplements",
+      "risk_level": "Low",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/ehplabs_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "GHOST",
+      "category": "GYM SUPPLEMENTS",
+      "description": "Lifestyle sports nutrition with unique flavors",
+      "risk_level": "Low",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Necessaire",
+      "category": "SKINCARE",
+      "description": "Clean body care with essential nutrients",
+      "risk_level": "Low",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/necessaire_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Living Proof",
+      "category": "HAIRCARE",
+      "description": "Science-driven innovative hair solutions",
+      "risk_level": "Low",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Hello",
+      "category": "ORAL CARE",
+      "description": "Natural oral care with clean ingredients",
+      "risk_level": "Low",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Amika",
+      "category": "HAIRCARE",
+      "description": "Vibrant haircare for all hair types",
+      "risk_level": "Low",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/amika_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Briogeo",
+      "category": "HAIRCARE",
+      "description": "Clean haircare with natural ingredients",
+      "risk_level": "Low",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_21/briogeo_processed.csv",
+      "tt_risk_level": "Low"
+    },
+    {
+      "name": "Bloom",
+      "category": "SKINCARE",
+      "description": "Natural floral-inspired beauty products",
+      "risk_level": "Low",
+      "tt_risk_level": "Low"
+    }
+  ]
+}

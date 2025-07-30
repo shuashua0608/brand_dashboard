@@ -1,0 +1,21 @@
+{
+  "brand": "Colgate",
+  "original_comments": 1302,
+  "total_comments": 660,
+  "relevant_comments": 481,
+  "relevance_rate": 72.87878787878788,
+  "avg_processing_time": 2.0819905425563,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 660
+  },
+  "clustering_info": {
+    "total_comments": 660,
+    "clustered_comments": "175",
+    "unique_clusters": 49,
+    "propagated_results": "125",
+    "llm_calls_saved": "125"
+  },
+  "timestamp": "2025-07-29T06:13:38.696306"
+}

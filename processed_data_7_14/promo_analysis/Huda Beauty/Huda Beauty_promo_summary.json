@@ -1,0 +1,44 @@
+{
+  "brand": "Huda Beauty",
+  "total_processed": 34,
+  "promotional_count": 15,
+  "high_intensity_promo_count": 11,
+  "promotional_rate": 0.4411764705882353,
+  "high_intensity_promo_rate": 0.3235294117647059,
+  "duplicate_clusters": 4,
+  "total_duplicates": 10,
+  "repeated_content_rate": 29.411764705882355,
+  "processing_time": 10.246009826660156,
+  "throughput": 3.318364961112166,
+  "platform_distribution": {
+    "INSTAGRAM": 13,
+    "YOUTUBE": 1,
+    "TWITTER": 1
+  },
+  "promo_types": {
+    "Affiliate": 9,
+    "Influencer": 5,
+    "Brand_Official": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 11,
+    "Medium": 4
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 1,
+    "comments_in_clusters": 5,
+    "llm_calls_saved": 3,
+    "efficiency_percentage": 8.823529411764707
+  },
+  "comment_preservation": {
+    "original_count": 34,
+    "processed_count": 34,
+    "all_preserved": true
+  }
+}

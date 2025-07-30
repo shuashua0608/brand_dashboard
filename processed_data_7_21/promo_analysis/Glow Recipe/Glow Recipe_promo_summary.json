@@ -1,0 +1,45 @@
+{
+  "brand": "Glow Recipe",
+  "total_processed": 12,
+  "promotional_count": 8,
+  "high_intensity_promo_count": 8,
+  "promotional_rate": 0.6666666666666666,
+  "high_intensity_promo_rate": 0.6666666666666666,
+  "duplicate_clusters": 0,
+  "total_duplicates": 0,
+  "repeated_content_rate": 0.0,
+  "processing_time": 7.419089078903198,
+  "throughput": 1.617449241056157,
+  "platform_distribution": {
+    "INSTAGRAM": 4,
+    "TWITTER": 1,
+    "FACEBOOK": 1,
+    "YOUTUBE": 1,
+    "WEB": 1
+  },
+  "promo_types": {
+    "Affiliate": 6,
+    "Brand_Official": 1,
+    "Spam": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 8
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": false,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 12,
+    "processed_count": 12,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "brand": "Amika",
+  "total_processed": 14,
+  "promotional_count": 6,
+  "high_intensity_promo_count": 3,
+  "promotional_rate": 0.42857142857142855,
+  "high_intensity_promo_rate": 0.21428571428571427,
+  "duplicate_clusters": 1,
+  "total_duplicates": 2,
+  "repeated_content_rate": 14.285714285714285,
+  "processing_time": 6.997135639190674,
+  "throughput": 2.000818723819868,
+  "platform_distribution": {
+    "INSTAGRAM": 6
+  },
+  "promo_types": {
+    "Influencer": 3,
+    "Brand_Official": 2,
+    "Affiliate": 1
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 3,
+    "High": 3
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": false,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 14,
+    "processed_count": 14,
+    "all_preserved": true
+  }
+}

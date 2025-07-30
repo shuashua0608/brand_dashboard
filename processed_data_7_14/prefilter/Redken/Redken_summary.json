@@ -1,0 +1,21 @@
+{
+  "brand": "Redken",
+  "original_comments": 272,
+  "total_comments": 154,
+  "relevant_comments": 144,
+  "relevance_rate": 93.5064935064935,
+  "avg_processing_time": 2.254486895226813,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 154
+  },
+  "clustering_info": {
+    "total_comments": 154,
+    "clustered_comments": "13",
+    "unique_clusters": 5,
+    "propagated_results": "7",
+    "llm_calls_saved": "7"
+  },
+  "timestamp": "2025-07-29T06:24:14.195158"
+}

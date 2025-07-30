@@ -1,0 +1,44 @@
+{
+  "brand": "Sol de Janeiro",
+  "total_processed": 25,
+  "promotional_count": 13,
+  "high_intensity_promo_count": 10,
+  "promotional_rate": 0.52,
+  "high_intensity_promo_rate": 0.4,
+  "duplicate_clusters": 4,
+  "total_duplicates": 10,
+  "repeated_content_rate": 40.0,
+  "processing_time": 7.933060169219971,
+  "throughput": 3.1513690135616557,
+  "platform_distribution": {
+    "INSTAGRAM": 7,
+    "TWITTER": 5,
+    "WEB": 1
+  },
+  "promo_types": {
+    "Affiliate": 9,
+    "Influencer": 3,
+    "UGC_Campaign": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 10,
+    "Medium": 3
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 1,
+    "comments_in_clusters": 5,
+    "llm_calls_saved": 3,
+    "efficiency_percentage": 12.0
+  },
+  "comment_preservation": {
+    "original_count": 25,
+    "processed_count": 25,
+    "all_preserved": true
+  }
+}

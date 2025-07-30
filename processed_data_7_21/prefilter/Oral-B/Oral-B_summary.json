@@ -1,0 +1,15 @@
+{
+  "brand": "Oral-B",
+  "total_comments": 97,
+  "relevant_comments": 39,
+  "relevance_rate": 40.20618556701031,
+  "avg_processing_time": 2.86452246941242,
+  "clustering_info": {
+    "total_comments": 97,
+    "clustered_comments": "5",
+    "unique_clusters": 1,
+    "propagated_results": "3",
+    "llm_calls_saved": "3"
+  },
+  "timestamp": "2025-07-23T18:14:31.478557"
+}

@@ -1,0 +1,15 @@
+{
+  "brand": "Rhode",
+  "total_comments": 936,
+  "relevant_comments": 35,
+  "relevance_rate": 3.7393162393162394,
+  "avg_processing_time": 2.5587399441462297,
+  "clustering_info": {
+    "total_comments": 936,
+    "clustered_comments": "248",
+    "unique_clusters": 51,
+    "propagated_results": "196",
+    "llm_calls_saved": "196"
+  },
+  "timestamp": "2025-07-23T18:18:21.894795"
+}

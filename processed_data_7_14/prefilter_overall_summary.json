@@ -1,0 +1,937 @@
+{
+  "total_brands": 40,
+  "processed_brands": [
+    "Kerastase",
+    "Pop Mart-Labubu",
+    "Supergoop!",
+    "EHPlabs",
+    "Colgate",
+    "Summer Fridays",
+    "YSL",
+    "Rhode",
+    "Glow Recipe",
+    "Amika",
+    "Briogeo",
+    "Bath & Body Works",
+    "Fenty Beauty",
+    "GNC",
+    "Drunk Elephant",
+    "Versace",
+    "NYX",
+    "Burberry",
+    "La Roche-Posay",
+    "Givenchy",
+    "Pantene",
+    "Le Labo",
+    "Anua",
+    "Olaplex",
+    "Charlotte Tilbury",
+    "Ouai",
+    "E.L.F.",
+    "Huda Beauty",
+    "Glossier",
+    "Giorgio Armani",
+    "Chanel",
+    "Kayali",
+    "Optimum Nutrition",
+    "Redken",
+    "Loreal",
+    "Dior",
+    "K18",
+    "Oral-B",
+    "Sol de Janeiro",
+    "Necessaire"
+  ],
+  "total_processed": 22746,
+  "total_relevant": 9105,
+  "overall_relevance_rate": 0.4002901609074123,
+  "used_llm": true,
+  "last_run": {
+    "timestamp": "2025-07-29 06:28:09",
+    "processed_brands": [
+      "Amika",
+      "Anua",
+      "Bath & Body Works",
+      "Briogeo",
+      "Burberry",
+      "Chanel",
+      "Charlotte Tilbury",
+      "Colgate",
+      "Dior",
+      "Drunk Elephant",
+      "E.L.F.",
+      "EHPlabs",
+      "Fenty Beauty",
+      "GNC",
+      "Giorgio Armani",
+      "Givenchy",
+      "Glossier",
+      "Glow Recipe",
+      "Huda Beauty",
+      "K18",
+      "Kayali",
+      "Kerastase",
+      "La Roche-Posay",
+      "Le Labo",
+      "Loreal",
+      "NYX",
+      "Necessaire",
+      "Olaplex",
+      "Optimum Nutrition",
+      "Oral-B",
+      "Ouai",
+      "Pantene",
+      "Pop Mart-Labubu",
+      "Redken",
+      "Rhode",
+      "Sol de Janeiro",
+      "Summer Fridays",
+      "Supergoop!",
+      "Versace",
+      "YSL"
+    ],
+    "sample_size": "all"
+  },
+  "brand_summaries": {
+    "Amika": {
+      "brand": "Amika",
+      "original_comments": 150,
+      "total_comments": 103,
+      "relevant_comments": 69,
+      "relevance_rate": 66.99029126213593,
+      "avg_processing_time": 2.3434507754242535,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 103
+      },
+      "clustering_info": {
+        "total_comments": 103,
+        "clustered_comments": "15",
+        "unique_clusters": 5,
+        "propagated_results": "9",
+        "llm_calls_saved": "9"
+      },
+      "timestamp": "2025-07-29T06:09:35.626539"
+    },
+    "Anua": {
+      "brand": "Anua",
+      "original_comments": 1022,
+      "total_comments": 692,
+      "relevant_comments": 672,
+      "relevance_rate": 97.10982658959537,
+      "avg_processing_time": 2.317764948902792,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 692
+      },
+      "clustering_info": {
+        "total_comments": 692,
+        "clustered_comments": "287",
+        "unique_clusters": 53,
+        "propagated_results": "233",
+        "llm_calls_saved": "233"
+      },
+      "timestamp": "2025-07-29T06:10:12.966689"
+    },
+    "Bath & Body Works": {
+      "brand": "Bath & Body Works",
+      "original_comments": 490,
+      "total_comments": 168,
+      "relevant_comments": 83,
+      "relevance_rate": 49.404761904761905,
+      "avg_processing_time": 2.353004719529833,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 168
+      },
+      "clustering_info": {
+        "total_comments": 168,
+        "clustered_comments": "26",
+        "unique_clusters": 9,
+        "propagated_results": "16",
+        "llm_calls_saved": "16"
+      },
+      "timestamp": "2025-07-29T06:10:26.616800"
+    },
+    "Briogeo": {
+      "brand": "Briogeo",
+      "original_comments": 50,
+      "total_comments": 38,
+      "relevant_comments": 36,
+      "relevance_rate": 94.73684210526315,
+      "avg_processing_time": 2.65041090312757,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 38
+      },
+      "clustering_info": {
+        "total_comments": 38,
+        "clustered_comments": "4",
+        "unique_clusters": 1,
+        "propagated_results": "2",
+        "llm_calls_saved": "2"
+      },
+      "timestamp": "2025-07-29T06:10:31.645314"
+    },
+    "Burberry": {
+      "brand": "Burberry",
+      "original_comments": 1047,
+      "total_comments": 445,
+      "relevant_comments": 236,
+      "relevance_rate": 53.033707865168545,
+      "avg_processing_time": 2.2480471943201645,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 445
+      },
+      "clustering_info": {
+        "total_comments": 445,
+        "clustered_comments": "109",
+        "unique_clusters": 25,
+        "propagated_results": "83",
+        "llm_calls_saved": "83"
+      },
+      "timestamp": "2025-07-29T06:11:00.387510"
+    },
+    "Chanel": {
+      "brand": "Chanel",
+      "original_comments": 1663,
+      "total_comments": 1640,
+      "relevant_comments": 444,
+      "relevance_rate": 27.073170731707318,
+      "avg_processing_time": 2.285486966662291,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 1640
+      },
+      "clustering_info": {
+        "total_comments": 1640,
+        "clustered_comments": "362",
+        "unique_clusters": 69,
+        "propagated_results": "292",
+        "llm_calls_saved": "292"
+      },
+      "timestamp": "2025-07-29T06:12:49.026708"
+    },
+    "Charlotte Tilbury": {
+      "brand": "Charlotte Tilbury",
+      "original_comments": 168,
+      "total_comments": 80,
+      "relevant_comments": 51,
+      "relevance_rate": 63.74999999999999,
+      "avg_processing_time": 2.524495580792427,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 80
+      },
+      "clustering_info": {
+        "total_comments": 80,
+        "clustered_comments": "2",
+        "unique_clusters": 0,
+        "propagated_results": "1",
+        "llm_calls_saved": "1"
+      },
+      "timestamp": "2025-07-29T06:12:58.644691"
+    },
+    "Colgate": {
+      "brand": "Colgate",
+      "original_comments": 1302,
+      "total_comments": 660,
+      "relevant_comments": 481,
+      "relevance_rate": 72.87878787878788,
+      "avg_processing_time": 2.0819905425563,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 660
+      },
+      "clustering_info": {
+        "total_comments": 660,
+        "clustered_comments": "175",
+        "unique_clusters": 49,
+        "propagated_results": "125",
+        "llm_calls_saved": "125"
+      },
+      "timestamp": "2025-07-29T06:13:38.696306"
+    },
+    "Dior": {
+      "brand": "Dior",
+      "original_comments": 2492,
+      "total_comments": 798,
+      "relevant_comments": 421,
+      "relevance_rate": 52.75689223057645,
+      "avg_processing_time": 2.348537402344228,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 798
+      },
+      "clustering_info": {
+        "total_comments": 798,
+        "clustered_comments": "214",
+        "unique_clusters": 46,
+        "propagated_results": "167",
+        "llm_calls_saved": "167"
+      },
+      "timestamp": "2025-07-29T06:14:31.920937"
+    },
+    "Drunk Elephant": {
+      "brand": "Drunk Elephant",
+      "original_comments": 147,
+      "total_comments": 35,
+      "relevant_comments": 17,
+      "relevance_rate": 48.57142857142857,
+      "avg_processing_time": 2.8636651039123535,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 35
+      },
+      "clustering_info": {
+        "total_comments": 35,
+        "clustered_comments": "3",
+        "unique_clusters": 0,
+        "propagated_results": "2",
+        "llm_calls_saved": "2"
+      },
+      "timestamp": "2025-07-29T06:14:38.213421"
+    },
+    "E.L.F.": {
+      "brand": "E.L.F.",
+      "original_comments": 860,
+      "total_comments": 653,
+      "relevant_comments": 164,
+      "relevance_rate": 25.114854517611025,
+      "avg_processing_time": 2.2500810564750915,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 653
+      },
+      "clustering_info": {
+        "total_comments": 653,
+        "clustered_comments": "479",
+        "unique_clusters": 9,
+        "propagated_results": "469",
+        "llm_calls_saved": "469"
+      },
+      "timestamp": "2025-07-29T06:14:55.002786"
+    },
+    "EHPlabs": {
+      "brand": "EHPlabs",
+      "original_comments": 40,
+      "total_comments": 29,
+      "relevant_comments": 25,
+      "relevance_rate": 86.20689655172413,
+      "avg_processing_time": 2.877171171122584,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 29
+      },
+      "clustering_info": {
+        "total_comments": 29,
+        "clustered_comments": "6",
+        "unique_clusters": 2,
+        "propagated_results": "3",
+        "llm_calls_saved": "3"
+      },
+      "timestamp": "2025-07-29T06:14:59.254442"
+    },
+    "Fenty Beauty": {
+      "brand": "Fenty Beauty",
+      "original_comments": 270,
+      "total_comments": 164,
+      "relevant_comments": 74,
+      "relevance_rate": 45.1219512195122,
+      "avg_processing_time": 2.3164060639172064,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 164
+      },
+      "clustering_info": {
+        "total_comments": 164,
+        "clustered_comments": "97",
+        "unique_clusters": 8,
+        "propagated_results": "88",
+        "llm_calls_saved": "88"
+      },
+      "timestamp": "2025-07-29T06:15:07.399685"
+    },
+    "GNC": {
+      "brand": "GNC",
+      "original_comments": 593,
+      "total_comments": 353,
+      "relevant_comments": 145,
+      "relevance_rate": 41.07648725212464,
+      "avg_processing_time": 2.2511450886388675,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 353
+      },
+      "clustering_info": {
+        "total_comments": 353,
+        "clustered_comments": "102",
+        "unique_clusters": 21,
+        "propagated_results": "80",
+        "llm_calls_saved": "80"
+      },
+      "timestamp": "2025-07-29T06:15:31.798419"
+    },
+    "Giorgio Armani": {
+      "brand": "Giorgio Armani",
+      "original_comments": 386,
+      "total_comments": 93,
+      "relevant_comments": 47,
+      "relevance_rate": 50.53763440860215,
+      "avg_processing_time": 2.612443116403395,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 93
+      },
+      "clustering_info": {
+        "total_comments": 93,
+        "clustered_comments": "9",
+        "unique_clusters": 3,
+        "propagated_results": "5",
+        "llm_calls_saved": "5"
+      },
+      "timestamp": "2025-07-29T06:15:42.380808"
+    },
+    "Givenchy": {
+      "brand": "Givenchy",
+      "original_comments": 285,
+      "total_comments": 159,
+      "relevant_comments": 109,
+      "relevance_rate": 68.55345911949685,
+      "avg_processing_time": 2.4150009950002036,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 159
+      },
+      "clustering_info": {
+        "total_comments": 159,
+        "clustered_comments": "18",
+        "unique_clusters": 6,
+        "propagated_results": "11",
+        "llm_calls_saved": "11"
+      },
+      "timestamp": "2025-07-29T06:15:55.815817"
+    },
+    "Glossier": {
+      "brand": "Glossier",
+      "original_comments": 178,
+      "total_comments": 93,
+      "relevant_comments": 27,
+      "relevance_rate": 29.03225806451613,
+      "avg_processing_time": 2.6262832405746623,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 93
+      },
+      "clustering_info": {
+        "total_comments": 93,
+        "clustered_comments": "6",
+        "unique_clusters": 1,
+        "propagated_results": "4",
+        "llm_calls_saved": "4"
+      },
+      "timestamp": "2025-07-29T06:16:05.672781"
+    },
+    "Glow Recipe": {
+      "brand": "Glow Recipe",
+      "original_comments": 146,
+      "total_comments": 87,
+      "relevant_comments": 12,
+      "relevance_rate": 13.793103448275861,
+      "avg_processing_time": 2.612683589431061,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 87
+      },
+      "clustering_info": {
+        "total_comments": 87,
+        "clustered_comments": "22",
+        "unique_clusters": 9,
+        "propagated_results": "12",
+        "llm_calls_saved": "12"
+      },
+      "timestamp": "2025-07-29T06:16:17.235297"
+    },
+    "Huda Beauty": {
+      "brand": "Huda Beauty",
+      "original_comments": 115,
+      "total_comments": 56,
+      "relevant_comments": 34,
+      "relevance_rate": 60.71428571428571,
+      "avg_processing_time": 2.563309316124235,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 56
+      },
+      "clustering_info": {
+        "total_comments": 56,
+        "clustered_comments": "5",
+        "unique_clusters": 1,
+        "propagated_results": "3",
+        "llm_calls_saved": "3"
+      },
+      "timestamp": "2025-07-29T06:16:23.361439"
+    },
+    "K18": {
+      "brand": "K18",
+      "original_comments": 203,
+      "total_comments": 100,
+      "relevant_comments": 39,
+      "relevance_rate": 39.0,
+      "avg_processing_time": 2.3140746259689333,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 100
+      },
+      "clustering_info": {
+        "total_comments": 100,
+        "clustered_comments": "13",
+        "unique_clusters": 4,
+        "propagated_results": "8",
+        "llm_calls_saved": "8"
+      },
+      "timestamp": "2025-07-29T06:16:32.095616"
+    },
+    "Kayali": {
+      "brand": "Kayali",
+      "original_comments": 100,
+      "total_comments": 61,
+      "relevant_comments": 36,
+      "relevance_rate": 59.01639344262295,
+      "avg_processing_time": 2.7828695695908343,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 61
+      },
+      "clustering_info": {
+        "total_comments": 61,
+        "clustered_comments": "6",
+        "unique_clusters": 2,
+        "propagated_results": "3",
+        "llm_calls_saved": "3"
+      },
+      "timestamp": "2025-07-29T06:16:45.553329"
+    },
+    "Kerastase": {
+      "brand": "Kerastase",
+      "original_comments": 101,
+      "total_comments": 68,
+      "relevant_comments": 63,
+      "relevance_rate": 92.64705882352942,
+      "avg_processing_time": 2.6992748730322895,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 68
+      },
+      "clustering_info": {
+        "total_comments": 68,
+        "clustered_comments": "2",
+        "unique_clusters": 0,
+        "propagated_results": "1",
+        "llm_calls_saved": "1"
+      },
+      "timestamp": "2025-07-29T06:16:53.730980"
+    },
+    "La Roche-Posay": {
+      "brand": "La Roche-Posay",
+      "original_comments": 269,
+      "total_comments": 124,
+      "relevant_comments": 110,
+      "relevance_rate": 88.70967741935483,
+      "avg_processing_time": 2.4942097817697833,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 124
+      },
+      "clustering_info": {
+        "total_comments": 124,
+        "clustered_comments": "4",
+        "unique_clusters": 1,
+        "propagated_results": "2",
+        "llm_calls_saved": "2"
+      },
+      "timestamp": "2025-07-29T06:17:05.962939"
+    },
+    "Le Labo": {
+      "brand": "Le Labo",
+      "original_comments": 157,
+      "total_comments": 76,
+      "relevant_comments": 23,
+      "relevance_rate": 30.263157894736842,
+      "avg_processing_time": 2.5603181092362655,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 76
+      },
+      "clustering_info": {
+        "total_comments": 76,
+        "clustered_comments": "5",
+        "unique_clusters": 1,
+        "propagated_results": "3",
+        "llm_calls_saved": "3"
+      },
+      "timestamp": "2025-07-29T06:17:13.802746"
+    },
+    "Loreal": {
+      "brand": "Loreal",
+      "original_comments": 1390,
+      "total_comments": 305,
+      "relevant_comments": 263,
+      "relevance_rate": 86.22950819672131,
+      "avg_processing_time": 2.4458330787596156,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 305
+      },
+      "clustering_info": {
+        "total_comments": 305,
+        "clustered_comments": "90",
+        "unique_clusters": 15,
+        "propagated_results": "74",
+        "llm_calls_saved": "74"
+      },
+      "timestamp": "2025-07-29T06:17:39.848282"
+    },
+    "NYX": {
+      "brand": "NYX",
+      "original_comments": 1199,
+      "total_comments": 680,
+      "relevant_comments": 264,
+      "relevance_rate": 38.82352941176471,
+      "avg_processing_time": 2.1231849838705625,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 680
+      },
+      "clustering_info": {
+        "total_comments": 680,
+        "clustered_comments": "106",
+        "unique_clusters": 25,
+        "propagated_results": "80",
+        "llm_calls_saved": "80"
+      },
+      "timestamp": "2025-07-29T06:18:25.056515"
+    },
+    "Necessaire": {
+      "brand": "Necessaire",
+      "original_comments": 87,
+      "total_comments": 53,
+      "relevant_comments": 3,
+      "relevance_rate": 5.660377358490567,
+      "avg_processing_time": 2.510909930715021,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 53
+      },
+      "clustering_info": {
+        "total_comments": 53,
+        "clustered_comments": "4",
+        "unique_clusters": 1,
+        "propagated_results": "2",
+        "llm_calls_saved": "2"
+      },
+      "timestamp": "2025-07-29T06:18:31.591487"
+    },
+    "Olaplex": {
+      "brand": "Olaplex",
+      "original_comments": 735,
+      "total_comments": 559,
+      "relevant_comments": 484,
+      "relevance_rate": 86.58318425760287,
+      "avg_processing_time": 2.2326891878636452,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 559
+      },
+      "clustering_info": {
+        "total_comments": 559,
+        "clustered_comments": "229",
+        "unique_clusters": 41,
+        "propagated_results": "187",
+        "llm_calls_saved": "187"
+      },
+      "timestamp": "2025-07-29T06:19:02.876000"
+    },
+    "Optimum Nutrition": {
+      "brand": "Optimum Nutrition",
+      "original_comments": 239,
+      "total_comments": 194,
+      "relevant_comments": 189,
+      "relevance_rate": 97.42268041237114,
+      "avg_processing_time": 2.1077454139276877,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 194
+      },
+      "clustering_info": {
+        "total_comments": 194,
+        "clustered_comments": "108",
+        "unique_clusters": 12,
+        "propagated_results": "95",
+        "llm_calls_saved": "95"
+      },
+      "timestamp": "2025-07-29T06:19:12.271929"
+    },
+    "Oral-B": {
+      "brand": "Oral-B",
+      "original_comments": 521,
+      "total_comments": 252,
+      "relevant_comments": 100,
+      "relevance_rate": 39.682539682539684,
+      "avg_processing_time": 2.3066281326233393,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 252
+      },
+      "clustering_info": {
+        "total_comments": 252,
+        "clustered_comments": "39",
+        "unique_clusters": 11,
+        "propagated_results": "27",
+        "llm_calls_saved": "27"
+      },
+      "timestamp": "2025-07-29T06:19:33.025012"
+    },
+    "Ouai": {
+      "brand": "Ouai",
+      "original_comments": 432,
+      "total_comments": 300,
+      "relevant_comments": 87,
+      "relevance_rate": 28.999999999999996,
+      "avg_processing_time": 2.3779303805033365,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 300
+      },
+      "clustering_info": {
+        "total_comments": 300,
+        "clustered_comments": "56",
+        "unique_clusters": 13,
+        "propagated_results": "42",
+        "llm_calls_saved": "42"
+      },
+      "timestamp": "2025-07-29T06:19:56.614271"
+    },
+    "Pantene": {
+      "brand": "Pantene",
+      "original_comments": 1607,
+      "total_comments": 389,
+      "relevant_comments": 286,
+      "relevance_rate": 73.52185089974293,
+      "avg_processing_time": 2.2095013020277636,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 389
+      },
+      "clustering_info": {
+        "total_comments": 389,
+        "clustered_comments": "175",
+        "unique_clusters": 26,
+        "propagated_results": "148",
+        "llm_calls_saved": "148"
+      },
+      "timestamp": "2025-07-29T06:20:17.085881"
+    },
+    "Pop Mart-Labubu": {
+      "brand": "Pop Mart-Labubu",
+      "original_comments": 9486,
+      "total_comments": 9431,
+      "relevant_comments": 2656,
+      "relevance_rate": 28.162443007104233,
+      "avg_processing_time": 2.4103190698422425,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 9431
+      },
+      "clustering_info": {
+        "total_comments": 9431,
+        "clustered_comments": "6908",
+        "unique_clusters": 216,
+        "propagated_results": "6691",
+        "llm_calls_saved": "6691"
+      },
+      "timestamp": "2025-07-29T06:24:01.789457"
+    },
+    "Redken": {
+      "brand": "Redken",
+      "original_comments": 272,
+      "total_comments": 154,
+      "relevant_comments": 144,
+      "relevance_rate": 93.5064935064935,
+      "avg_processing_time": 2.254486895226813,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 154
+      },
+      "clustering_info": {
+        "total_comments": 154,
+        "clustered_comments": "13",
+        "unique_clusters": 5,
+        "propagated_results": "7",
+        "llm_calls_saved": "7"
+      },
+      "timestamp": "2025-07-29T06:24:14.195158"
+    },
+    "Rhode": {
+      "brand": "Rhode",
+      "original_comments": 1678,
+      "total_comments": 1653,
+      "relevant_comments": 192,
+      "relevance_rate": 11.61524500907441,
+      "avg_processing_time": 2.202918560232311,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 1653
+      },
+      "clustering_info": {
+        "total_comments": 1653,
+        "clustered_comments": "371",
+        "unique_clusters": 75,
+        "propagated_results": "295",
+        "llm_calls_saved": "295"
+      },
+      "timestamp": "2025-07-29T06:26:00.522035"
+    },
+    "Sol de Janeiro": {
+      "brand": "Sol de Janeiro",
+      "original_comments": 435,
+      "total_comments": 270,
+      "relevant_comments": 211,
+      "relevance_rate": 78.14814814814814,
+      "avg_processing_time": 2.3098290673008672,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 270
+      },
+      "clustering_info": {
+        "total_comments": 270,
+        "clustered_comments": "78",
+        "unique_clusters": 18,
+        "propagated_results": "59",
+        "llm_calls_saved": "59"
+      },
+      "timestamp": "2025-07-29T06:26:19.643580"
+    },
+    "Summer Fridays": {
+      "brand": "Summer Fridays",
+      "original_comments": 464,
+      "total_comments": 268,
+      "relevant_comments": 11,
+      "relevance_rate": 4.104477611940299,
+      "avg_processing_time": 2.275217631859566,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 268
+      },
+      "clustering_info": {
+        "total_comments": 268,
+        "clustered_comments": "63",
+        "unique_clusters": 16,
+        "propagated_results": "46",
+        "llm_calls_saved": "46"
+      },
+      "timestamp": "2025-07-29T06:26:38.960853"
+    },
+    "Supergoop!": {
+      "brand": "Supergoop!",
+      "original_comments": 226,
+      "total_comments": 170,
+      "relevant_comments": 150,
+      "relevance_rate": 88.23529411764706,
+      "avg_processing_time": 2.4412953755434823,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 170
+      },
+      "clustering_info": {
+        "total_comments": 170,
+        "clustered_comments": "32",
+        "unique_clusters": 6,
+        "propagated_results": "25",
+        "llm_calls_saved": "25"
+      },
+      "timestamp": "2025-07-29T06:26:52.537549"
+    },
+    "Versace": {
+      "brand": "Versace",
+      "original_comments": 830,
+      "total_comments": 824,
+      "relevant_comments": 474,
+      "relevance_rate": 57.52427184466019,
+      "avg_processing_time": 2.2177429042973564,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 824
+      },
+      "clustering_info": {
+        "total_comments": 824,
+        "clustered_comments": "324",
+        "unique_clusters": 43,
+        "propagated_results": "280",
+        "llm_calls_saved": "280"
+      },
+      "timestamp": "2025-07-29T06:27:37.790789"
+    },
+    "YSL": {
+      "brand": "YSL",
+      "original_comments": 908,
+      "total_comments": 469,
+      "relevant_comments": 173,
+      "relevance_rate": 36.88699360341152,
+      "avg_processing_time": 2.2992362635476247,
+      "date_filtering": {
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-14",
+        "comments_after_date_filter": 469
+      },
+      "clustering_info": {
+        "total_comments": 469,
+        "clustered_comments": "109",
+        "unique_clusters": 19,
+        "propagated_results": "89",
+        "llm_calls_saved": "89"
+      },
+      "timestamp": "2025-07-29T06:28:09.606446"
+    }
+  }
+}

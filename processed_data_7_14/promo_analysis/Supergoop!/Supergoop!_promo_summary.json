@@ -1,0 +1,49 @@
+{
+  "brand": "Supergoop!",
+  "total_processed": 150,
+  "promotional_count": 105,
+  "high_intensity_promo_count": 40,
+  "promotional_rate": 0.7,
+  "high_intensity_promo_rate": 0.26666666666666666,
+  "duplicate_clusters": 21,
+  "total_duplicates": 81,
+  "repeated_content_rate": 54.0,
+  "processing_time": 27.275407075881958,
+  "throughput": 5.499459626127311,
+  "platform_distribution": {
+    "TWITTER": 49,
+    "INSTAGRAM": 30,
+    "WEB": 17,
+    "FACEBOOK": 4,
+    "YOUTUBE": 3,
+    "LINKEDIN": 1,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 80,
+    "Influencer": 21,
+    "Brand_Official": 4
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 60,
+    "High": 40,
+    "Low": 5
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 6,
+    "comments_in_clusters": 32,
+    "llm_calls_saved": 25,
+    "efficiency_percentage": 16.666666666666664
+  },
+  "comment_preservation": {
+    "original_count": 150,
+    "processed_count": 150,
+    "all_preserved": true
+  }
+}

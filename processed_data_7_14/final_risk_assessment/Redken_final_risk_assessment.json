@@ -1,0 +1,101 @@
+{
+  "brand": "Redken",
+  "timestamp": "2025-07-30T18:08:39.282753",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 27.67,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 0.0,
+      "promotional_risk": 58.95,
+      "sentiment_risk": 13.62,
+      "comment_intensity": 16.86
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 0.0,
+        "base_score": 0.0,
+        "high_risks": 0,
+        "medium_risks": 0,
+        "low_risks": 0,
+        "severity_score": 0,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 0,
+        "total_risk_bonus": 0,
+        "risk_types_count": 0,
+        "diversity_bonus": 0,
+        "final_score": 0.0
+      },
+      "promotional": {
+        "promotional_rate": 63.888888888888886,
+        "base_score": 42.59259259259259,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 27.083333333333332,
+        "repetition_bonus": 5.416666666666667,
+        "high_intensity_rate": 43.75,
+        "intensity_bonus": 10.937499999999998,
+        "final_score": 58.94675925925925
+      },
+      "sentiment": {
+        "negative_pct": 0.7,
+        "organic_negative_pct": 1.9230769230769231,
+        "primary_negative_pct": 1.9230769230769231,
+        "base_score": 11.11164844053229,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 2.1,
+        "emotion_bonus": 1.5750000000000002,
+        "high_risk_emotion_bonus": 0.9358387076573756,
+        "final_score": 13.622487148189666
+      },
+      "intensity": {
+        "total_comments": 144,
+        "actual_daily_avg": 11.1,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 2.804509016539384,
+        "repeated_content_rate": 27.083333333333332,
+        "repetition_score": 12.513931930411074,
+        "avg_clustering_efficiency": 4.861111111111112,
+        "efficiency_score": 1.5401821776390208,
+        "final_score": 16.858623124589478
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (63.9%) indicating potential brand dilution",
+      "Significant content repetition (27.1%) suggesting coordinated promotional activity",
+      "Multiple promotional sources (Affiliate, Influencer, Brand_Official) creating inconsistent messaging",
+      "Low organic engagement relative to promotional content",
+      "Limited negative sentiment (0.7% overall, 1.9% organic) indicating potential suppression of authentic feedback"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level primarily driven by the overwhelming promotional content dominating Redken's social media presence. With nearly 64% of content being promotional in nature and coming from various sources (affiliates, influencers, and official channels), the brand appears to be experiencing a promotional echo chamber rather than authentic consumer engagement. The high content repetition rate (27.1%) further suggests coordinated promotional campaigns that may be drowning out genuine consumer voices.\n\nWhile sentiment metrics appear positive on the surface (minimal negative sentiment), this should be viewed with caution given the promotional saturation. The disparity between overall negative sentiment (0.7%) and organic negative sentiment (1.9%) indicates that promotional content may be artificially suppressing authentic feedback. The clustering efficiency of only 4.9% suggests scattered, uncoordinated messaging across channels, further diluting brand identity and potentially confusing consumers about Redken's core value proposition.",
+    "immediate_actions": [
+      "1. Conduct promotional content audit to identify and pause lowest-performing affiliate/influencer campaigns",
+      "2. Implement temporary reduction in official promotional posts (aim for 40% reduction over 7 days)",
+      "3. Increase community management responses to organic consumer content to boost authentic engagement",
+      "4. Deploy social listening tools to capture unfiltered consumer sentiment beyond promotional noise",
+      "5. Establish emergency coordination between marketing teams to reduce content duplication"
+    ],
+    "long_term_strategy": "1. Develop balanced content calendar with maximum 30% promotional content target\n2. Create promotional guidelines for affiliates and influencers to ensure message consistency and reduce duplication\n3. Implement authentication program for verified Redken partners to distinguish from unauthorized promoters\n4. Establish sentiment benchmarking that separates organic from promotional feedback\n5. Develop consumer-generated content strategy to increase authentic brand engagement\n6. Create centralized approval process for promotional campaigns to prevent oversaturation",
+    "business_impact": "1. Brand dilution and consumer fatigue from promotional overload\n2. Decreased consumer trust due to perceived inauthenticity of messaging\n3. Reduced effectiveness of future promotional campaigns due to diminishing returns\n4. Potential revenue impact as promotional discounting becomes expected by consumers\n5. Difficulty differentiating from competitors in an oversaturated promotional environment\n6. Missed opportunities to address genuine consumer concerns hidden by promotional noise",
+    "monitoring_priorities": "1. Promotional content ratio: Track daily with alert threshold at >40% promotional content\n2. Content repetition rate: Monitor weekly with alert threshold at >15% duplication\n3. Organic engagement rate: Track daily with alert threshold at <5% engagement on non-promotional posts\n4. Sentiment divergence: Monitor gap between promotional vs. organic sentiment with alert at >5% difference\n5. Conversion metrics: Track click-through to purchase rates on promotional content with minimum threshold of 2%\n6. Brand mention context: Weekly analysis of brand mentions in non-promotional contexts"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 27.67
+}

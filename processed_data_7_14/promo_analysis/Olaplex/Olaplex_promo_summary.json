@@ -1,0 +1,50 @@
+{
+  "brand": "Olaplex",
+  "total_processed": 484,
+  "promotional_count": 418,
+  "high_intensity_promo_count": 344,
+  "promotional_rate": 0.8636363636363636,
+  "high_intensity_promo_rate": 0.7107438016528925,
+  "duplicate_clusters": 85,
+  "total_duplicates": 582,
+  "repeated_content_rate": 120.24793388429754,
+  "processing_time": 63.51596665382385,
+  "throughput": 7.620131212643077,
+  "platform_distribution": {
+    "WEB": 277,
+    "TWITTER": 70,
+    "INSTAGRAM": 59,
+    "FACEBOOK": 6,
+    "YOUTUBE": 4,
+    "REDDIT": 1,
+    "WORDPRESS": 1
+  },
+  "promo_types": {
+    "Affiliate": 372,
+    "Influencer": 34,
+    "Brand_Official": 11,
+    "Spam": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 344,
+    "Medium": 69,
+    "Low": 5
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 37,
+    "comments_in_clusters": 210,
+    "llm_calls_saved": 172,
+    "efficiency_percentage": 35.53719008264463
+  },
+  "comment_preservation": {
+    "original_count": 484,
+    "processed_count": 484,
+    "all_preserved": true
+  }
+}

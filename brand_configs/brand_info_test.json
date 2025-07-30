@@ -1,0 +1,82 @@
+{
+  "brands": [
+    {
+      "name": "Afnan",
+      "category": "FRAGRANCES",
+      "description": "Middle Eastern fragrance house known for affordable luxury perfumes",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/afnan_processed.csv"
+    },
+    {
+      "name": "Armaf",
+      "category": "FRAGRANCES",
+      "description": "Affordable fragrance brand known for creating inspired versions of luxury scents",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/armaf_processed.csv"
+    },
+    {
+      "name": "Byoma",
+      "category": "SKINCARE",
+      "description": "Affordable skincare brand focused on barrier repair and microbiome health",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/Byoma_processed.csv"
+    },
+    {
+      "name": "Coco & Eve",
+      "category": "HAIRCARE",
+      "description": "Tropical-inspired haircare brand known for coconut oil-based products",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/Coco_Eve_processed.csv"
+    },
+    {
+      "name": "Gisou",
+      "category": "HAIRCARE",
+      "description": "Honey-infused luxury haircare brand founded by influencer Negin Mirsalehi",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/gisou_processed.csv"
+    },
+    {
+      "name": "Gucci",
+      "category": "FRAGRANCES",
+      "description": "Italian luxury fashion house known for high-end clothing, accessories, and fragrances",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/gucci_processed.csv"
+    },
+    {
+      "name": "Guru Nanda",
+      "category": "ORAL CARE",
+      "description": "Essential oils and aromatherapy products focused on natural wellness",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/Guru_nanda_processed.csv"
+    },
+    {
+      "name": "HiSmile",
+      "category": "ORAL CARE",
+      "description": "Teeth whitening and oral care products popular on social media",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/hismile_processed.csv"
+    },
+    {
+      "name": "Lattafa",
+      "category": "FRAGRANCES",
+      "description": "Middle Eastern perfume house offering affordable luxury fragrances",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/lattafa_processed.csv"
+    },
+    {
+      "name": "Mixsoon",
+      "category": "SKINCARE",
+      "description": "Korean skincare brand focused on single-ingredient formulations",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/mixsoon_processed.csv"
+    },
+    {
+      "name": "Paco Rabanne",
+      "category": "FRAGRANCES",
+      "description": "Spanish fashion house known for bold fragrances and avant-garde designs",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/paco_rabanne_processed.csv"
+    },
+    {
+      "name": "Prada",
+      "category": "FRAGRANCES",
+      "description": "Italian luxury fashion house offering high-end fragrances and beauty products",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/parada_processed.csv"
+    },
+    {
+      "name": "Waterpik",
+      "category": "ORAL CARE",
+      "description": "Water flossing and oral irrigation devices for dental hygiene",
+      "filepath": "/home/ubuntu/src/new_src/llm_agentic_workflow/brand_7_14/Waterpik_processed.csv"
+    }
+  ]
+}

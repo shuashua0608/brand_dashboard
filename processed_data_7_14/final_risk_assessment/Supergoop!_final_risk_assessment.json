@@ -1,0 +1,101 @@
+{
+  "brand": "Supergoop!",
+  "timestamp": "2025-07-30T18:10:26.086927",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 34.84,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 24.75,
+      "promotional_risk": 64.13,
+      "sentiment_risk": 4.0,
+      "comment_intensity": 37.6
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 0.6666666666666667,
+        "base_score": 1.7464764202258003,
+        "high_risks": 1,
+        "medium_risks": 0,
+        "low_risks": 0,
+        "severity_score": 10,
+        "amazon_risks": 1,
+        "amazon_bonus": 8,
+        "total_ccr_risks": 1,
+        "total_risk_bonus": 2,
+        "risk_types_count": 1,
+        "diversity_bonus": 3,
+        "final_score": 24.7464764202258
+      },
+      "promotional": {
+        "promotional_rate": 70.0,
+        "base_score": 46.66666666666667,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 54.0,
+        "repetition_bonus": 10.8,
+        "high_intensity_rate": 26.666666666666668,
+        "intensity_bonus": 6.666666666666667,
+        "final_score": 64.13333333333334
+      },
+      "sentiment": {
+        "negative_pct": 0,
+        "organic_negative_pct": 0.0,
+        "primary_negative_pct": 0.0,
+        "base_score": 0.0,
+        "mixed_pct": 2.0,
+        "mixed_bonus": 4.0,
+        "negative_emotions_pct": 0.0,
+        "emotion_bonus": 0.0,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 4.0
+      },
+      "intensity": {
+        "total_comments": 150,
+        "actual_daily_avg": 11.5,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 2.9816041968559728,
+        "repeated_content_rate": 54.0,
+        "repetition_score": 28.64334686033683,
+        "avg_clustering_efficiency": 16.666666666666664,
+        "efficiency_score": 5.973056398938413,
+        "final_score": 37.598007456131214
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (70%) with significant affiliate marketing presence",
+      "High content repetition rate (54%) suggesting coordinated promotional activity",
+      "Potential Amazon marketplace authenticity concerns (counterfeit risk indicator)",
+      "Clustering efficiency of 16.7% indicating concentrated activity patterns",
+      "Low organic engagement despite high promotional volume"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level primarily driven by the promotional content ecosystem surrounding Supergoop!. With 70% of content being promotional in nature (predominantly affiliate marketing at 80 instances), there appears to be a significant commercial ecosystem leveraging the brand, potentially without proper oversight. The 54% content repetition rate combined with the clustering efficiency of 16.7% suggests coordinated promotional campaigns that could be diluting authentic brand messaging and creating an artificial conversation landscape.\n\nWhile sentiment metrics are positive (minimal negative sentiment at 0% and only 2% mixed sentiment), this actually reinforces concerns about the promotional ecosystem. The lack of negative feedback despite high promotional activity indicates the conversation may be dominated by affiliates and influencers rather than genuine consumer experiences. The Amazon-specific counterfeit concern, though isolated, represents a critical risk vector that could damage brand reputation and consumer trust if left unaddressed, especially given the high-value skincare category where product authenticity is paramount.",
+    "immediate_actions": [
+      "1. Investigate the Amazon counterfeit concern immediately, including product verification and seller authentication",
+      "2. Conduct audit of top 10 affiliate marketers to ensure compliance with brand guidelines and FTC disclosure requirements",
+      "3. Implement temporary monitoring of all promotional content using brand name/hashtags to identify unauthorized affiliates",
+      "4. Engage with legitimate influencers to increase authentic content ratio and dilute promotional saturation",
+      "5. Deploy social listening for specific counterfeit/authenticity keywords across all marketplaces"
+    ],
+    "long_term_strategy": "1. Develop a formal affiliate/influencer governance program with clear guidelines, approval processes, and content standards\n2. Create an authorized seller program with verification badges for legitimate retail partners\n3. Increase direct brand participation in social conversations to improve organic content ratio\n4. Implement quarterly affiliate content audits to ensure compliance and measure promotional content ratios\n5. Develop consumer education campaign about authentic product identification and authorized purchase channels\n6. Establish legal enforcement protocols for unauthorized sellers and counterfeit products",
+    "business_impact": "1. Revenue diversion through unauthorized sellers and potential counterfeit products\n2. Brand dilution from excessive promotional content overwhelming authentic consumer experiences\n3. Reduced marketing effectiveness as consumers become skeptical of overly promotional content\n4. Potential regulatory scrutiny regarding affiliate disclosure practices and product claims\n5. Long-term erosion of brand equity if perceived as over-commercialized or having quality control issues\n6. Customer safety concerns if counterfeit products contain harmful ingredients",
+    "monitoring_priorities": "1. Promotional content ratio: Track weekly with alert threshold at >50%, target reduction to <40% within 60 days\n2. Content repetition rate: Monitor daily with alert threshold at >30%, target reduction to <25% within 30 days\n3. Counterfeit mentions: Zero tolerance with immediate escalation protocol for any new instances\n4. Organic engagement ratio: Track weekly with target increase to >50% of total engagement\n5. Sentiment by channel: Monitor separately for marketplace vs. social platforms with alert threshold at >5% negative\n6. Authorized vs. unauthorized seller activity: Weekly tracking with immediate alerts for new unauthorized sellers"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 34.84
+}

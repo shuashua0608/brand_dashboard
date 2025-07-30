@@ -1,0 +1,29 @@
+{
+  "brand": "Kayali",
+  "total_processed": 36,
+  "total_ccr_risks": 6,
+  "ccr_risk_rate": 0.16666666666666666,
+  "processing_method": "clustered",
+  "processing_time": 9.541323900222778,
+  "throughput": 3.7730613043289982,
+  "sample_size": "all",
+  "risk_breakdown": {
+    "Fake_product": 2
+  },
+  "risk_level_distribution": {
+    "Medium": 3,
+    "Low": 2,
+    "High": 1
+  },
+  "clustering_efficiency": {
+    "total_clusters": 0,
+    "comments_in_clusters": 2,
+    "llm_calls_saved": 1,
+    "efficiency_percentage": 2.7777777777777777
+  },
+  "comment_preservation": {
+    "original_count": 36,
+    "processed_count": 36,
+    "all_preserved": true
+  }
+}

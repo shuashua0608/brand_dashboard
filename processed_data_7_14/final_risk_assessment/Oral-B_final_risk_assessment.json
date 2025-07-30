@@ -1,0 +1,104 @@
+{
+  "brand": "Oral-B",
+  "timestamp": "2025-07-30T18:06:45.086411",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 64.08,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 100,
+      "promotional_risk": 66.75,
+      "sentiment_risk": 100,
+      "comment_intensity": 25.88
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 10.0,
+        "base_score": 59.031166219703735,
+        "high_risks": 3,
+        "medium_risks": 2,
+        "low_risks": 5,
+        "severity_score": 30,
+        "amazon_risks": 3,
+        "amazon_bonus": 25,
+        "total_ccr_risks": 10,
+        "total_risk_bonus": 15,
+        "risk_types_count": 2,
+        "diversity_bonus": 6,
+        "final_score": 100
+      },
+      "promotional": {
+        "promotional_rate": 66.0,
+        "base_score": 43.99999999999999,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 45.0,
+        "repetition_bonus": 9.0,
+        "high_intensity_rate": 55.00000000000001,
+        "intensity_bonus": 13.75,
+        "final_score": 66.75
+      },
+      "sentiment": {
+        "negative_pct": 5.0,
+        "organic_negative_pct": 14.705882352941178,
+        "primary_negative_pct": 14.705882352941178,
+        "base_score": 100.0,
+        "mixed_pct": 2.0,
+        "mixed_bonus": 4.0,
+        "negative_emotions_pct": 6.0,
+        "emotion_bonus": 4.5,
+        "high_risk_emotion_bonus": 10.0,
+        "final_score": 100
+      },
+      "intensity": {
+        "total_comments": 100,
+        "actual_daily_avg": 7.7,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 1.6229797549417737,
+        "repeated_content_rate": 45.0,
+        "repetition_score": 23.014750276903296,
+        "avg_clustering_efficiency": 4.0,
+        "efficiency_score": 1.242879375545174,
+        "final_score": 25.880609407390246
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high counterfeit/CCR risk (100/100) with identified suspicious sources and Amazon-specific fake product concerns",
+      "Significant promotional content risk (66.75/100) with 66% promotional rate and 45% content repetition",
+      "Critical sentiment risk (100/100) with 14.7% organic negative sentiment",
+      "Amazon platform showing specific counterfeit concerns (3 identified issues)",
+      "High affiliate promotion rate (61 of 66 promotional posts)",
+      "##"
+    ],
+    "reasoning": "The risk assessment reveals a concerning pattern of counterfeit products and suspicious sources affecting Oral-B's brand integrity, particularly on Amazon. With 3 high-risk counterfeit issues identified and 5 suspicious sources flagged, consumers are expressing legitimate concerns about product authenticity. This is especially problematic for an oral care brand where product safety and efficacy are paramount consumer considerations.\n\nThe promotional content landscape (66% of monitored content) shows an overreliance on affiliate marketing (61 of 66 promotional posts) with high content repetition (45%), suggesting coordinated but potentially inauthentic promotion. When combined with the 14.7% organic negative sentiment, this indicates that authentic consumer voices are expressing dissatisfaction while the brand's social presence is dominated by promotional content. This imbalance threatens to undermine consumer trust in Oral-B's digital presence and product quality.\n\n##",
+    "immediate_actions": [
+      "1. Initiate Amazon seller investigation for the 3 identified suspicious listings and coordinate with Amazon's counterfeit reporting system",
+      "2. Implement social listening for specific counterfeit-related keywords and phrases to identify additional suspicious sources",
+      "3. Contact top affiliate promoters to verify compliance with brand guidelines and authenticity standards",
+      "4. Develop response templates for addressing negative sentiment related to product authenticity",
+      "5. Conduct rapid sampling of products from flagged Amazon sellers to verify authenticity",
+      "6. Pause any automated promotional campaigns until content repetition issues are addressed",
+      "##"
+    ],
+    "long_term_strategy": "1. Develop a comprehensive anti-counterfeit strategy including:\n   - Enhanced product authentication features\n   - Consumer education campaign on identifying authentic products\n   - Streamlined reporting process for suspicious products\n2. Restructure affiliate program with stricter guidelines on messaging consistency and authenticity claims\n3. Increase ratio of organic content to promotional content through strategic content calendar\n4. Implement sentiment recovery program targeting specific negative sentiment drivers\n5. Establish direct communication channels with major platforms (especially Amazon) for expedited counterfeit reporting\n6. Develop brand ambassador program with dental professionals to enhance credibility and authentic promotion\n\n##",
+    "business_impact": "1. Revenue loss from diverted sales to counterfeit products (estimated 5-15% based on industry benchmarks)\n2. Potential safety incidents and liability if consumers use counterfeit oral care products\n3. Erosion of consumer trust in Oral-B's quality control and brand promise\n4. Decreased effectiveness of legitimate marketing efforts due to consumer skepticism\n5. Potential regulatory scrutiny if counterfeit products cause consumer harm\n6. Long-term brand equity damage in the competitive oral care market\n7. Reduced retailer confidence and potential shelf space reduction\n\n##",
+    "monitoring_priorities": "1. Counterfeit mentions and suspicious source reports (Escalation threshold: >2 new sources per week)\n2. Organic negative sentiment rate (Threshold: >10% sustained for 7+ days)\n3. Amazon product review sentiment specifically mentioning authenticity concerns (Threshold: >5% of new reviews)\n4. Promotional content to organic content ratio (Target: <40% promotional)\n5. Content repetition rate (Target: <20%)\n6. Conversion rates from affiliate links vs. organic content (Monitor for significant divergence)\n7. Sentiment recovery rate following interventions (Target: 50% improvement within 14 days)"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 64.08
+}

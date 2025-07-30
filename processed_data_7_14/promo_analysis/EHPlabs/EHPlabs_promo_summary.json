@@ -1,0 +1,44 @@
+{
+  "brand": "EHPlabs",
+  "total_processed": 25,
+  "promotional_count": 25,
+  "high_intensity_promo_count": 18,
+  "promotional_rate": 1.0,
+  "high_intensity_promo_rate": 0.72,
+  "duplicate_clusters": 5,
+  "total_duplicates": 10,
+  "repeated_content_rate": 40.0,
+  "processing_time": 6.793340682983398,
+  "throughput": 3.680074526899904,
+  "platform_distribution": {
+    "INSTAGRAM": 23,
+    "YOUTUBE": 1,
+    "FACEBOOK": 1
+  },
+  "promo_types": {
+    "Influencer": 18,
+    "Affiliate": 7
+  },
+  "promotional_intensity_distribution": {
+    "High": 18,
+    "Medium": 4,
+    "Low": 3
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 1,
+    "comments_in_clusters": 4,
+    "llm_calls_saved": 2,
+    "efficiency_percentage": 8.0
+  },
+  "comment_preservation": {
+    "original_count": 25,
+    "processed_count": 25,
+    "all_preserved": true
+  }
+}

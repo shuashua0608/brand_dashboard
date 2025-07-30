@@ -1,0 +1,45 @@
+{
+  "brand": "Givenchy",
+  "total_processed": 109,
+  "promotional_count": 20,
+  "high_intensity_promo_count": 14,
+  "promotional_rate": 0.1834862385321101,
+  "high_intensity_promo_rate": 0.12844036697247707,
+  "duplicate_clusters": 22,
+  "total_duplicates": 57,
+  "repeated_content_rate": 52.293577981651374,
+  "processing_time": 22.04907250404358,
+  "throughput": 4.943518598345145,
+  "platform_distribution": {
+    "TWITTER": 14,
+    "INSTAGRAM": 4,
+    "YOUTUBE": 1,
+    "WEB": 1
+  },
+  "promo_types": {
+    "Affiliate": 17,
+    "Influencer": 2,
+    "Spam": 1
+  },
+  "promotional_intensity_distribution": {
+    "High": 14,
+    "Medium": 6
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": true
+  },
+  "clustering_efficiency": {
+    "total_clusters": 3,
+    "comments_in_clusters": 11,
+    "llm_calls_saved": 7,
+    "efficiency_percentage": 6.422018348623854
+  },
+  "comment_preservation": {
+    "original_count": 109,
+    "processed_count": 109,
+    "all_preserved": true
+  }
+}

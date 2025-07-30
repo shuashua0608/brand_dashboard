@@ -1,0 +1,102 @@
+{
+  "brand": "Colgate",
+  "timestamp": "2025-07-30T17:58:06.864979",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 81.47,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 91.27,
+      "promotional_risk": 86.94,
+      "sentiment_risk": 100,
+      "comment_intensity": 59.51
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 3.5343035343035343,
+        "base_score": 15.271312409743471,
+        "high_risks": 11,
+        "medium_risks": 6,
+        "low_risks": 0,
+        "severity_score": 30,
+        "amazon_risks": 11,
+        "amazon_bonus": 25,
+        "total_ccr_risks": 17,
+        "total_risk_bonus": 15,
+        "risk_types_count": 2,
+        "diversity_bonus": 6,
+        "final_score": 91.27131240974347
+      },
+      "promotional": {
+        "promotional_rate": 83.36798336798337,
+        "base_score": 55.578655578655585,
+        "spam_count": 2,
+        "spam_rate": 0.4158004158004158,
+        "spam_bonus": 2.843830057718627,
+        "repeated_content_rate": 67.56756756756756,
+        "repetition_bonus": 13.513513513513514,
+        "high_intensity_rate": 77.13097713097713,
+        "intensity_bonus": 15.0,
+        "final_score": 86.93599914988772
+      },
+      "sentiment": {
+        "negative_pct": 9.1,
+        "organic_negative_pct": 53.75,
+        "primary_negative_pct": 53.75,
+        "base_score": 100.0,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 8.9,
+        "emotion_bonus": 6.675,
+        "high_risk_emotion_bonus": 10.0,
+        "final_score": 100
+      },
+      "intensity": {
+        "total_comments": 481,
+        "actual_daily_avg": 37.0,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 17.121062672539843,
+        "repeated_content_rate": 67.56756756756756,
+        "repetition_score": 37.483245890578246,
+        "avg_clustering_efficiency": 13.92931392931393,
+        "efficiency_score": 4.903268660942886,
+        "final_score": 59.507577224060974
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "CRITICAL",
+    "key_factors": [
+      "Extremely high promotional content rate (83.4%) with significant content repetition (67.6%)",
+      "Very high negative sentiment (9.1%) with over half (53.8%) being organic",
+      "Substantial counterfeit/CCR concerns, particularly on Amazon (11 high-risk instances)",
+      "Suspicious source reports indicating potential unauthorized distribution channels",
+      "Spam content detected, suggesting uncontrolled brand representation"
+    ],
+    "reasoning": "The risk assessment confirms a CRITICAL level primarily driven by the dangerous combination of high promotional content and significant negative sentiment. The 83.4% promotional rate indicates the brand conversation is dominated by promotional material rather than authentic engagement, with two-thirds being repetitive content. This creates an environment where the brand appears inauthentic and commercially driven. When combined with the 9.1% negative sentiment (of which 53.8% is organic), this suggests that despite heavy promotional efforts, consumers are expressing genuine dissatisfaction with the products or brand experience.\n\nThe counterfeit concerns concentrated on Amazon represent a serious threat to brand integrity and consumer safety, particularly for oral care products that consumers put in their mouths. The presence of spam content and suspicious source reports further indicates the brand's digital presence is being exploited by unauthorized parties. The clustering of negative comments (13.9% clustering efficiency) suggests specific issues are emerging that could rapidly escalate if not addressed. This multi-dimensional risk profile requires immediate intervention to prevent potential reputation damage and consumer safety concerns.",
+    "immediate_actions": [
+      "1. Initiate Amazon brand registry investigation of the 11 high-risk counterfeit listings within 24 hours",
+      "2. Deploy social listening tools to identify sources of organic negative sentiment and engage directly with dissatisfied customers",
+      "3. Reduce promotional content by 40% within 7 days, particularly focusing on affiliate marketing",
+      "4. Report and remove identified spam content and implement enhanced spam filtering",
+      "5. Conduct emergency review of product quality concerns mentioned in negative comments",
+      "6. Prepare crisis communication materials addressing counterfeit products and how to identify authentic Colgate items"
+    ],
+    "long_term_strategy": "1. Develop a balanced content strategy with maximum 50% promotional content and at least 30% educational/value-add content\n2. Implement robust affiliate marketing guidelines and monitoring system to prevent repetitive, low-quality promotional content\n3. Create an authorized seller program with verification badges for legitimate retail partners\n4. Establish a dedicated counterfeit reporting and investigation team focused on e-commerce platforms\n5. Launch a consumer education campaign about identifying authentic Colgate products\n6. Develop a sentiment recovery plan targeting specific product issues identified in negative comments\n7. Implement quarterly brand health assessments to track improvement in key risk metrics",
+    "business_impact": "1. Revenue loss from diverted sales to counterfeit products (estimated 3-7% based on industry standards)\n2. Potential safety incidents and liability from counterfeit oral care products\n3. Erosion of consumer trust and brand equity (estimated 12-18% decline in brand value metrics)\n4. Decreased marketing effectiveness due to promotional content saturation\n5. Reduced customer lifetime value as negative sentiment drives consumers to competitors\n6. Potential regulatory scrutiny if counterfeit products cause consumer harm\n7. Decreased retailer confidence and potential shelf space reduction",
+    "monitoring_priorities": "1. Counterfeit identification rate: Track daily, escalate if new instances exceed 3 per week\n2. Organic negative sentiment: Monitor daily, escalate if exceeds 5% for 3 consecutive days\n3. Promotional content ratio: Target reduction to <60% within 30 days, <50% within 90 days\n4. Content repetition rate: Target reduction to <40% within 30 days, <25% within 90 days\n5. Amazon customer review sentiment: Monitor daily, escalate if negative reviews increase by >5%\n6. Brand mention authenticity score: Develop baseline and track weekly\n7. Response rate to negative comments: Target >80% response within 24 hours"
+  },
+  "final_risk_level": "CRITICAL",
+  "final_risk_score": 81.47
+}

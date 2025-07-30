@@ -1,0 +1,30 @@
+{
+  "brand": "Olaplex",
+  "total_processed": 484,
+  "total_ccr_risks": 8,
+  "ccr_risk_rate": 0.01652892561983471,
+  "processing_method": "clustered",
+  "processing_time": 56.13267183303833,
+  "throughput": 8.622429401536689,
+  "sample_size": "all",
+  "risk_breakdown": {
+    "Suspicious_source": 4,
+    "Amazon_fake_concern": 2
+  },
+  "risk_level_distribution": {
+    "Low": 5,
+    "High": 2,
+    "Medium": 1
+  },
+  "clustering_efficiency": {
+    "total_clusters": 37,
+    "comments_in_clusters": 210,
+    "llm_calls_saved": 172,
+    "efficiency_percentage": 35.53719008264463
+  },
+  "comment_preservation": {
+    "original_count": 484,
+    "processed_count": 484,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "brand": "Ouai",
+  "timestamp": "2025-07-30T18:07:07.393658",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 85.1,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 66.79,
+      "promotional_risk": 83.22,
+      "sentiment_risk": 100,
+      "comment_intensity": 76.57
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 3.4482758620689653,
+        "base_score": 14.789856694980186,
+        "high_risks": 2,
+        "medium_risks": 1,
+        "low_risks": 0,
+        "severity_score": 25,
+        "amazon_risks": 2,
+        "amazon_bonus": 15,
+        "total_ccr_risks": 3,
+        "total_risk_bonus": 6,
+        "risk_types_count": 2,
+        "diversity_bonus": 6,
+        "final_score": 66.78985669498019
+      },
+      "promotional": {
+        "promotional_rate": 82.75862068965517,
+        "base_score": 55.172413793103445,
+        "spam_count": 0,
+        "spam_rate": 0.0,
+        "spam_bonus": 0.0,
+        "repeated_content_rate": 101.14942528735634,
+        "repetition_bonus": 20.0,
+        "high_intensity_rate": 32.18390804597701,
+        "intensity_bonus": 8.045977011494251,
+        "final_score": 83.2183908045977
+      },
+      "sentiment": {
+        "negative_pct": 3.4,
+        "organic_negative_pct": 20.0,
+        "primary_negative_pct": 20.0,
+        "base_score": 100.0,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 2.3,
+        "emotion_bonus": 1.7249999999999999,
+        "high_risk_emotion_bonus": 1.7132190373799152,
+        "final_score": 100
+      },
+      "intensity": {
+        "total_comments": 87,
+        "actual_daily_avg": 6.7,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 1.317018821175307,
+        "repeated_content_rate": 101.14942528735634,
+        "repetition_score": 60.0,
+        "avg_clustering_efficiency": 39.08045977011494,
+        "efficiency_score": 15.25171291022378,
+        "final_score": 76.56873173139908
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "CRITICAL",
+    "key_factors": [
+      "Extremely high sentiment risk (100/100) with 20% organic negative sentiment",
+      "Excessive promotional content (82.8% promotional rate) with high content repetition (101.1%)",
+      "Significant comment intensity (76.57/100) indicating coordinated activity",
+      "Presence of counterfeit/CCR concerns on Amazon",
+      "Low clustering efficiency (39.1%) suggesting disorganized or potentially manipulated engagement"
+    ],
+    "reasoning": "The risk assessment for Ouai Haircare reveals a critical situation requiring immediate intervention. The perfect sentiment risk score of 100/100 is particularly alarming, with 20% of organic comments expressing negative sentiment. This indicates genuine customer dissatisfaction that stands in stark contrast to the overwhelming promotional content (82.8% of all engagement). The combination suggests a potential attempt to drown out legitimate negative feedback with affiliate marketing content, creating a misleading representation of brand perception.\n\nThe high content repetition rate (101.1%) coupled with low clustering efficiency (39.1%) strongly indicates coordinated, potentially inauthentic activity across social channels. This pattern typically emerges when affiliate marketers or bots deploy similar messaging across platforms. Additionally, the presence of Amazon-specific counterfeit concerns, though limited in volume, represents a significant threat to brand integrity and customer trust. These factors collectively create a volatile situation where brand perception is at risk of rapid deterioration if left unaddressed.",
+    "immediate_actions": [
+      "1. Conduct emergency audit of all affiliate marketing partnerships and temporarily pause high-volume affiliates",
+      "2. Implement sentiment monitoring alerts for real-time notification of negative comments",
+      "3. Investigate Amazon counterfeit claims and contact Amazon brand protection services",
+      "4. Deploy community management resources to respond to negative organic comments within 24 hours",
+      "5. Analyze content patterns to identify potential bot networks or coordinated inauthentic behavior",
+      "6. Temporarily increase organic content production to balance promotional content ratio"
+    ],
+    "long_term_strategy": "1. Develop a comprehensive affiliate marketing governance framework with clear guidelines and monitoring protocols\n2. Implement an automated promotional content detection system to maintain healthy ratios (target: <50% promotional)\n3. Create a dedicated counterfeit monitoring and response team focused on e-commerce platforms\n4. Establish a customer feedback integration process to address product concerns revealed in negative comments\n5. Develop a crisis management playbook specific to social media sentiment deterioration\n6. Implement quarterly affiliate marketing audits and performance reviews\n7. Invest in authentic influencer relationships rather than high-volume affiliate programs",
+    "business_impact": "If unaddressed, these risks could lead to significant business consequences including:\n\u2022 Erosion of brand credibility and consumer trust due to perceived inauthenticity\n\u2022 Revenue loss from customers avoiding products due to counterfeit concerns\n\u2022 Decreased organic engagement as authentic voices are drowned out by promotional content\n\u2022 Potential algorithmic penalties on social platforms that detect inauthentic engagement patterns\n\u2022 Reduced effectiveness of future marketing campaigns due to audience skepticism\n\u2022 Long-term brand reputation damage requiring costly rehabilitation campaigns\n\u2022 Increased customer acquisition costs as word-of-mouth recommendations decline",
+    "monitoring_priorities": "\u2022 Daily sentiment tracking with escalation threshold of >5% increase in negative sentiment\n\u2022 Promotional content ratio (target: <50%, escalate if >65%)\n\u2022 Content repetition rate (target: <30%, escalate if >50%)\n\u2022 Counterfeit mention tracking (escalate immediately for any new instances)\n\u2022 Engagement authenticity score based on clustering efficiency (target: >60%)\n\u2022 Response rate to negative comments (target: 90% within 24 hours)\n\u2022 Affiliate content performance metrics (conversion vs. sentiment impact)\n\u2022 Weekly executive dashboard showing risk trend lines across all metrics"
+  },
+  "final_risk_level": "CRITICAL",
+  "final_risk_score": 85.1
+}

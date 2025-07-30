@@ -1,0 +1,23 @@
+{
+  "brand": "Pantene",
+  "total_processed": 101,
+  "total_ccr_risks": 0,
+  "ccr_risk_rate": 0.0,
+  "processing_method": "clustered",
+  "processing_time": 17.141446590423584,
+  "throughput": 5.892151486002686,
+  "sample_size": "all",
+  "risk_breakdown": {},
+  "risk_level_distribution": {},
+  "clustering_efficiency": {
+    "total_clusters": 9,
+    "comments_in_clusters": 24,
+    "llm_calls_saved": 14,
+    "efficiency_percentage": 13.861386138613863
+  },
+  "comment_preservation": {
+    "original_count": 101,
+    "processed_count": 101,
+    "all_preserved": true
+  }
+}

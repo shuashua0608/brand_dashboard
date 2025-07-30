@@ -1,0 +1,46 @@
+{
+  "brand": "Burberry",
+  "total_processed": 105,
+  "promotional_count": 42,
+  "high_intensity_promo_count": 19,
+  "promotional_rate": 0.4,
+  "high_intensity_promo_rate": 0.18095238095238095,
+  "duplicate_clusters": 22,
+  "total_duplicates": 63,
+  "repeated_content_rate": 60.0,
+  "processing_time": 23.188456296920776,
+  "throughput": 4.528115138649531,
+  "platform_distribution": {
+    "TWITTER": 35,
+    "WEB": 4,
+    "INSTAGRAM": 2,
+    "REDDIT": 1
+  },
+  "promo_types": {
+    "Affiliate": 27,
+    "Influencer": 8,
+    "Brand_Official": 7
+  },
+  "promotional_intensity_distribution": {
+    "High": 19,
+    "Medium": 19,
+    "Low": 4
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 3,
+    "comments_in_clusters": 12,
+    "llm_calls_saved": 8,
+    "efficiency_percentage": 7.6190476190476195
+  },
+  "comment_preservation": {
+    "original_count": 105,
+    "processed_count": 105,
+    "all_preserved": true
+  }
+}

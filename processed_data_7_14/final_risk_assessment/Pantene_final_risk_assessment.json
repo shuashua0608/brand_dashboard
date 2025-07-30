@@ -1,0 +1,103 @@
+{
+  "brand": "Pantene",
+  "timestamp": "2025-07-30T18:07:45.422029",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 90.37,
+    "risk_level": "CRITICAL",
+    "component_scores": {
+      "ccr_risk": 82.32,
+      "promotional_risk": 100,
+      "sentiment_risk": 100,
+      "comment_intensity": 75.0
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 4.895104895104895,
+        "base_score": 23.32233163363275,
+        "high_risks": 1,
+        "medium_risks": 1,
+        "low_risks": 12,
+        "severity_score": 30,
+        "amazon_risks": 1,
+        "amazon_bonus": 8,
+        "total_ccr_risks": 14,
+        "total_risk_bonus": 15,
+        "risk_types_count": 2,
+        "diversity_bonus": 6,
+        "final_score": 82.32233163363276
+      },
+      "promotional": {
+        "promotional_rate": 84.26573426573427,
+        "base_score": 56.17715617715617,
+        "spam_count": 8,
+        "spam_rate": 2.797202797202797,
+        "spam_bonus": 30.0,
+        "repeated_content_rate": 95.45454545454545,
+        "repetition_bonus": 19.09090909090909,
+        "high_intensity_rate": 68.18181818181817,
+        "intensity_bonus": 15.0,
+        "final_score": 100
+      },
+      "sentiment": {
+        "negative_pct": 3.5,
+        "organic_negative_pct": 22.22222222222222,
+        "primary_negative_pct": 22.22222222222222,
+        "base_score": 100.0,
+        "mixed_pct": 0.3,
+        "mixed_bonus": 0.6000000000000001,
+        "negative_emotions_pct": 4.5,
+        "emotion_bonus": 3.375,
+        "high_risk_emotion_bonus": 5.73703852671616,
+        "final_score": 100
+      },
+      "intensity": {
+        "total_comments": 286,
+        "actual_daily_avg": 22.0,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 7.84986435362869,
+        "repeated_content_rate": 95.45454545454545,
+        "repetition_score": 56.742332860828576,
+        "avg_clustering_efficiency": 27.622377622377616,
+        "efficiency_score": 10.412383489867054,
+        "final_score": 75.00458070432433
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "CRITICAL",
+    "key_factors": [
+      "Extremely high promotional content rate (84.3%) with concerning content repetition (95.5%)",
+      "Significant sentiment risk with 22.2% negative sentiment among organic content",
+      "Presence of spam content (2.8%) alongside legitimate promotional activities",
+      "High comment intensity with clustering suggesting coordinated activity",
+      "Counterfeit/suspicious source indicators present in multiple instances"
+    ],
+    "reasoning": "The risk assessment for Pantene confirms a CRITICAL risk level primarily driven by an alarming promotional content ecosystem. With 84.3% of content being promotional in nature and a 95.5% content repetition rate, there are strong indicators of coordinated promotional activity that lacks authenticity. This is particularly concerning when combined with the sentiment analysis showing that 22.2% of organic (non-promotional) content expresses negative sentiment. This suggests that while the brand's promotional ecosystem appears active, genuine consumer sentiment may be significantly more negative than the overall metrics initially suggest.\n\nThe presence of spam content (2.8%) alongside legitimate promotional activities (affiliate marketing, official brand content, and influencer posts) indicates a problematic content environment that could undermine brand credibility. The high comment intensity with clustering efficiency of 27.6% further suggests coordinated activity rather than organic engagement. When combined with counterfeit/suspicious source indicators across multiple instances, this creates a high-risk environment where brand perception is being artificially manipulated while actual consumer sentiment trends negative, creating a dangerous disconnect between perceived and actual brand health.",
+    "immediate_actions": [
+      "1. Conduct emergency audit of all promotional partners and affiliates to identify sources of repetitive content",
+      "2. Implement temporary pause on affiliate marketing programs pending review",
+      "3. Engage directly with sources of negative organic sentiment to understand specific issues",
+      "4. Investigate and take action against the 8 identified spam content instances",
+      "5. Address the Amazon-specific counterfeit concern immediately with platform representatives",
+      "6. Deploy social listening tools to capture real-time sentiment changes during corrective actions",
+      "7. Brief executive leadership on critical risk status and potential reputation impacts"
+    ],
+    "long_term_strategy": "1. Develop a comprehensive promotional content governance framework with clear guidelines on frequency, messaging, and authenticity\n2. Implement advanced sentiment analysis tools to better segment organic vs. promotional feedback\n3. Create an early warning system for detecting coordinated promotional activities that exceed healthy thresholds\n4. Establish a counterfeit product response protocol with major e-commerce platforms\n5. Redesign affiliate marketing program with stricter quality controls and authenticity requirements\n6. Invest in generating and amplifying genuine user-generated content to balance promotional activities\n7. Develop a consumer sentiment recovery plan focused on addressing specific product concerns identified in negative feedback",
+    "business_impact": "If unaddressed, these risks could lead to significant business consequences including erosion of consumer trust, decreased authentic engagement, and potential revenue decline. The artificial promotional environment masks genuine consumer sentiment, creating a false sense of brand health while actual negative sentiment could be spreading. This disconnect increases vulnerability to competitor campaigns targeting dissatisfied customers. The presence of counterfeit concerns could damage product reputation and safety perception, particularly critical for haircare products. Long-term, this environment could lead to diminished brand equity, reduced retail partner confidence, and challenges in new product launches due to skepticism about authentic consumer reception.",
+    "monitoring_priorities": "1. Promotional content ratio: Track daily with alert threshold at >40% of total content\n2. Organic sentiment tracking: Monitor with escalation if negative sentiment exceeds 15%\n3. Content repetition rate: Alert if exceeding 30% across promotional channels\n4. Spam content detection: Zero tolerance policy with immediate alerts for any instances\n5. Counterfeit mentions: Daily monitoring with immediate escalation of any new instances\n6. Engagement authenticity score: Develop and track weekly with threshold of <50% triggering review\n7. Sentiment divergence: Monitor gap between promotional and organic sentiment with >20% difference triggering investigation"
+  },
+  "final_risk_level": "CRITICAL",
+  "final_risk_score": 90.37
+}

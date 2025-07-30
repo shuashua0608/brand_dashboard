@@ -1,0 +1,21 @@
+{
+  "brand": "Bath & Body Works",
+  "original_comments": 490,
+  "total_comments": 168,
+  "relevant_comments": 83,
+  "relevance_rate": 49.404761904761905,
+  "avg_processing_time": 2.353004719529833,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 168
+  },
+  "clustering_info": {
+    "total_comments": 168,
+    "clustered_comments": "26",
+    "unique_clusters": 9,
+    "propagated_results": "16",
+    "llm_calls_saved": "16"
+  },
+  "timestamp": "2025-07-29T06:10:26.616800"
+}

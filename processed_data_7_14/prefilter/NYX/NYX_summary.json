@@ -1,0 +1,21 @@
+{
+  "brand": "NYX",
+  "original_comments": 1199,
+  "total_comments": 680,
+  "relevant_comments": 264,
+  "relevance_rate": 38.82352941176471,
+  "avg_processing_time": 2.1231849838705625,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 680
+  },
+  "clustering_info": {
+    "total_comments": 680,
+    "clustered_comments": "106",
+    "unique_clusters": 25,
+    "propagated_results": "80",
+    "llm_calls_saved": "80"
+  },
+  "timestamp": "2025-07-29T06:18:25.056515"
+}

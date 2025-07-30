@@ -1,0 +1,47 @@
+{
+  "total_comments": 164,
+  "sentiment_distribution": {
+    "positive_pct": 54.3,
+    "negative_pct": 0,
+    "neutral_pct": 45.1,
+    "mixed_pct": 0.6
+  },
+  "top_emotions": [
+    {
+      "emotion": "Anticipation",
+      "count": 53
+    },
+    {
+      "emotion": "Trust",
+      "count": 48
+    },
+    {
+      "emotion": "Neutral",
+      "count": 33
+    },
+    {
+      "emotion": "Joy",
+      "count": 28
+    },
+    {
+      "emotion": "Surprise",
+      "count": 1
+    }
+  ],
+  "negative_emotions_count": 1,
+  "negative_emotions_pct": 0.6,
+  "positive_emotions_count": 129,
+  "positive_emotions_pct": 78.7,
+  "clustering_efficiency": {
+    "total_clusters": 7,
+    "comments_in_clusters": 29,
+    "llm_calls_saved": 21,
+    "efficiency_percentage": 12.804878048780488
+  },
+  "processing_method": "clustered",
+  "comment_preservation": {
+    "original_count": 164,
+    "processed_count": 164,
+    "all_preserved": true
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "brand": "Fenty Beauty",
+  "timestamp": "2025-07-30T18:00:24.050047",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 52.9,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 8.38,
+      "promotional_risk": 83.17,
+      "sentiment_risk": 0.0,
+      "comment_intensity": 78.67
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 1.3513513513513513,
+        "base_score": 4.376028356810965,
+        "high_risks": 0,
+        "medium_risks": 0,
+        "low_risks": 1,
+        "severity_score": 2,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 1,
+        "total_risk_bonus": 2,
+        "risk_types_count": 0,
+        "diversity_bonus": 0,
+        "final_score": 8.376028356810965
+      },
+      "promotional": {
+        "promotional_rate": 58.108108108108105,
+        "base_score": 38.73873873873874,
+        "spam_count": 1,
+        "spam_rate": 1.3513513513513513,
+        "spam_bonus": 16.662059524191616,
+        "repeated_content_rate": 101.35135135135135,
+        "repetition_bonus": 20.0,
+        "high_intensity_rate": 31.08108108108108,
+        "intensity_bonus": 7.770270270270271,
+        "final_score": 83.17106853320062
+      },
+      "sentiment": {
+        "negative_pct": 0,
+        "organic_negative_pct": 0.0,
+        "primary_negative_pct": 0.0,
+        "base_score": 0.0,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 0.0,
+        "emotion_bonus": 0.0,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 0.0
+      },
+      "intensity": {
+        "total_comments": 74,
+        "actual_daily_avg": 5.7,
+        "total_days": 13,
+        "used_actual_timestamps": true,
+        "volume_score": 1.033143581783736,
+        "repeated_content_rate": 101.35135135135135,
+        "repetition_score": 60.0,
+        "avg_clustering_efficiency": 44.594594594594604,
+        "efficiency_score": 17.634917531357843,
+        "final_score": 78.66806111314158
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (58.1%) indicating potential brand dilution",
+      "High content repetition rate (101.4%) suggesting coordinated promotional activity",
+      "Significant clustering efficiency (44.6%) indicating potential manipulation of conversation",
+      "Presence of spam content (1.35% rate) requiring moderation attention",
+      "Multiple promotional types present (Affiliate, Influencer, Brand_Official, UGC_Campaign)",
+      "##"
+    ],
+    "reasoning": "The risk assessment for Fenty Beauty reveals a concerning pattern of promotional saturation across social media channels. With 58.1% of all content being promotional in nature and a content repetition rate exceeding 100%, there are strong indicators that the authentic brand conversation is being overwhelmed by marketing content. The high clustering efficiency (44.6%) suggests these promotions may be coordinated rather than organic, potentially creating an artificial perception of the brand's social presence.\n\nWhile the absence of negative sentiment (0%) and minimal counterfeit concerns (8.38/100) are positive factors, they are overshadowed by the promotional imbalance. The predominance of affiliate (24 instances) and influencer (14 instances) promotions indicates the brand's narrative is largely being shaped by incentivized third parties rather than genuine consumer experiences. This creates significant risk of brand perception distortion and potential consumer fatigue with promotional messaging, despite the current neutral-to-positive sentiment.\n\n##",
+    "immediate_actions": [
+      "1. Implement temporary reduction in affiliate marketing activities to decrease promotional saturation",
+      "2. Conduct audit of top promotional content contributors to identify potential policy violations",
+      "3. Enhance spam detection and removal processes to address the 1.35% spam rate",
+      "4. Develop and distribute updated content guidelines to influencer partners emphasizing authentic engagement",
+      "5. Initiate daily monitoring of content repetition rates with alerts for spikes above 80%",
+      "##"
+    ],
+    "long_term_strategy": "1. Develop a balanced content ecosystem with defined ratios between promotional and organic content (target: <30% promotional)\n2. Create an influencer diversification strategy to reduce clustering and increase authentic voice variety\n3. Implement a promotional content calendar to prevent oversaturation during specific timeframes\n4. Establish a UGC incentive program to increase genuine customer content sharing\n5. Develop more sophisticated content monitoring tools that can distinguish between promotional subtypes\n6. Create a quarterly promotional content impact assessment to measure effects on brand perception\n\n##",
+    "business_impact": "1. Consumer fatigue from promotional oversaturation could lead to decreased engagement rates and follower growth\n2. Potential damage to brand authenticity perception, particularly critical for Fenty's inclusive brand positioning\n3. Reduced effectiveness of future promotional campaigns due to diminishing returns from oversaturation\n4. Decreased organic reach as algorithms may penalize content perceived as overly promotional\n5. Risk of attracting regulatory scrutiny regarding undisclosed promotional relationships\n6. Potential loss of market share to competitors with more authentic social presence\n\n##",
+    "monitoring_priorities": "1. Promotional content ratio: Track daily with alert threshold >40%, critical threshold >50%\n2. Content repetition rate: Monitor daily with alert threshold >80%, critical threshold >95%\n3. Engagement rate on promotional vs. organic content: Track weekly with alert if promotional engagement drops >15%\n4. Spam detection rate: Daily monitoring with immediate alerts for any increase above 2%\n5. Sentiment tracking: Implement hourly monitoring with alerts for any negative sentiment spike above 5%\n6. Clustering efficiency: Weekly analysis with investigation triggered at >35%\n7. Conversion attribution from promotional content: Track weekly to assess diminishing returns"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 52.9
+}
