@@ -448,8 +448,8 @@ class AgenticWorkflowDashboard:
                 if 'reasoning' in row and pd.notna(row['reasoning']):
                     st.markdown("**AI Analysis:**")
                     reasoning = str(row['reasoning'])
-                    if len(reasoning) > 200:
-                        reasoning = reasoning[:200] + "..."
+                    if len(reasoning) > 400:
+                        reasoning = reasoning[:400] + "..."
                     st.info(reasoning)
             
             if simulate:
@@ -876,6 +876,57 @@ class AgenticWorkflowDashboard:
             return df.sample(n=sample_size, random_state=42).reset_index(drop=True)
         else:
             return df.reset_index(drop=True)
+    
+    def get_unique_comments(self, df):
+        """Remove duplicate comments based on content similarity"""
+        if df is None or len(df) == 0:
+            return pd.DataFrame()
+        
+        # Use cleaned_transcript for deduplication, fallback to transcript
+        content_column = 'cleaned_transcript' if 'cleaned_transcript' in df.columns else 'transcript'
+        
+        if content_column not in df.columns:
+            return df
+        
+        # Remove exact duplicates first
+        df_unique = df.drop_duplicates(subset=[content_column], keep='first')
+        
+        # For more sophisticated deduplication, we can also remove very similar content
+        # by checking if content is substantially different
+        unique_comments = []
+        seen_content = set()
+        
+        for _, row in df_unique.iterrows():
+            content = str(row[content_column]).lower().strip()
+            
+            # Skip if content is too short or empty
+            if len(content) < 10:
+                continue
+            
+            # Simple similarity check - if content is very similar to something we've seen, skip it
+            is_similar = False
+            for seen in seen_content:
+                # Check if one content is a substring of another (indicating high similarity)
+                if len(content) > 50 and len(seen) > 50:
+                    # For longer content, check if they share significant overlap
+                    shorter = content if len(content) < len(seen) else seen
+                    longer = seen if len(content) < len(seen) else content
+                    if shorter in longer and len(shorter) / len(longer) > 0.8:
+                        is_similar = True
+                        break
+                elif content == seen:
+                    is_similar = True
+                    break
+            
+            if not is_similar:
+                unique_comments.append(row)
+                seen_content.add(content)
+        
+        if unique_comments:
+            return pd.DataFrame(unique_comments).reset_index(drop=True)
+        else:
+            # If no unique comments found, return the deduplicated version
+            return df_unique.reset_index(drop=True)
     
     def display_static_risk_results(self, final_risk_score, final_risk_level, component_scores, llm_assessment):
         """Display risk results without animation (for non-simulate mode)"""
