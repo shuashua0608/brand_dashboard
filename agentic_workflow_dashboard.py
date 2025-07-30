@@ -994,8 +994,11 @@ class AgenticWorkflowDashboard:
                 irrelevant_comments = prefilter_df[prefilter_df['relevant'] == False]
                 
                 if len(irrelevant_comments) > 0:
+                    # Get unique irrelevant comments (remove duplicates based on content)
+                    unique_irrelevant = self.get_unique_comments(irrelevant_comments)
+                    
                     # Apply language filter for better readability (prioritize English)
-                    sample_irrelevant = self.filter_by_language(irrelevant_comments, 2)
+                    sample_irrelevant = self.filter_by_language(unique_irrelevant, 2)
                     if len(sample_irrelevant) > 0:
                         self.display_sample_rows(sample_irrelevant, "Filtered Out (Irrelevant)", brand_name, simulate)
                     else:
