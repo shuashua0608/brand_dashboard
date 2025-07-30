@@ -1,0 +1,1 @@
+web: streamlit run agentic_workflow_dashboard.py --server.port=$PORT --server.address=0.0.0.0

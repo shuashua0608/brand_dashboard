@@ -291,25 +291,22 @@ class AgenticWorkflowDashboard:
     
     def load_prefilter_csv_data(self, brand_name):
         """Load prefilter CSV data to show sample irrelevant comments"""
-        # Try to find the prefilter data file
-        possible_files = [
-            f"{self.data_dir}/prefilter/{brand_name}/{brand_name}_comments_relevant.csv",
-            f"{self.data_dir}/prefilter/{brand_name}/{brand_name}_prefilter_all.csv",
-            f"{self.data_dir}/prefilter/{brand_name}/{brand_name}_all_comments.csv"
-        ]
+        # The correct file path for prefilter data with all comments
+        file_path = f"{self.data_dir}/prefilter/{brand_name}/{brand_name}_comments_all.csv"
         
-        for file_path in possible_files:
-            if os.path.exists(file_path):
-                try:
-                    df = pd.read_csv(file_path)
-                    # Check if it has the 'relevant' column
-                    if 'relevant' in df.columns:
-                        return df
-                except Exception as e:
-                    continue
+        if os.path.exists(file_path):
+            try:
+                df = pd.read_csv(file_path)
+                # Check if it has the 'relevant' column
+                if 'relevant' in df.columns:
+                    return df
+                else:
+                    st.warning(f"File {file_path} exists but doesn't have 'relevant' column")
+            except Exception as e:
+                st.error(f"Error loading prefilter data: {e}")
+        else:
+            st.warning(f"Prefilter file not found: {file_path}")
         
-        # If no prefilter file found, try to load from the original data
-        # This is a fallback - in practice, the prefilter should have saved all comments
         return None
     
     def display_sample_rows(self, df, sample_type, brand_name, simulate=False):
@@ -852,15 +849,16 @@ class AgenticWorkflowDashboard:
     def filter_by_language(self, df, sample_size=2):
         """Filter dataframe to prioritize English content, fallback to random selection"""
         if df is None or len(df) == 0:
-            return df
+            return pd.DataFrame()
         
         # First, try to get English content
         if 'text_language' in df.columns:
+            # Filter for English content
             english_content = df[df['text_language'] == 'en']
             
             if len(english_content) >= sample_size:
-                # If we have enough English content, sample from it
-                return english_content.head(sample_size)
+                # If we have enough English content, sample from it randomly
+                return english_content.sample(n=sample_size, random_state=42)
             elif len(english_content) > 0:
                 # If we have some English content but not enough, take all English + random others
                 remaining_needed = sample_size - len(english_content)
@@ -868,16 +866,16 @@ class AgenticWorkflowDashboard:
                 
                 if len(non_english) > 0:
                     additional_samples = non_english.sample(n=min(remaining_needed, len(non_english)), random_state=42)
-                    return pd.concat([english_content, additional_samples])
+                    return pd.concat([english_content, additional_samples]).reset_index(drop=True)
                 else:
-                    return english_content
+                    return english_content.reset_index(drop=True)
         
         # Fallback: no text_language column or no English content found
         # Return random sample
         if len(df) >= sample_size:
-            return df.sample(n=sample_size, random_state=42)
+            return df.sample(n=sample_size, random_state=42).reset_index(drop=True)
         else:
-            return df
+            return df.reset_index(drop=True)
     
     def display_static_risk_results(self, final_risk_score, final_risk_level, component_scores, llm_assessment):
         """Display risk results without animation (for non-simulate mode)"""
@@ -996,10 +994,14 @@ class AgenticWorkflowDashboard:
                 irrelevant_comments = prefilter_df[prefilter_df['relevant'] == False]
                 
                 if len(irrelevant_comments) > 0:
-                    # Apply language filter for better readability
+                    # Apply language filter for better readability (prioritize English)
                     sample_irrelevant = self.filter_by_language(irrelevant_comments, 2)
                     if len(sample_irrelevant) > 0:
                         self.display_sample_rows(sample_irrelevant, "Filtered Out (Irrelevant)", brand_name, simulate)
+                    else:
+                        st.info("Found irrelevant comments but none in English to display")
+                else:
+                    st.info("No irrelevant comments found (all comments were relevant)")
             else:
                 st.warning("No prefilter data available")
     
