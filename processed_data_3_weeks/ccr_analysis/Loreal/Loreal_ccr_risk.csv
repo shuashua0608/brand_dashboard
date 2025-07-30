@@ -1,9 +1,0 @@
-fid,transcript,cleaned_transcript,timestamp,text_language,social_media_channel,hashtags,mentions,emojis,cluster_id,is_representative,repetition_count,counterfeit_risk,has_ccr_risk,risk_level,risk_type,reasoning,keywords,result_propagated,relevant,confidence,processing_time
-1941886772864024929,  🚨ÓLEO DA LOREAL POR MENOS DE R$100 NA AMAZON ✨L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios 💸R$99* - com cupom PRIMEDAY20 🛒COMPRE AQUI: https://t.co/OlYUDK61J5 oferta válida para membro prime 🎁Ganhe 30 dias de Prime grátis:https://t.co/QNr1HpmWDt https://t.co/dzl9147R7m,ÓLEO DA LOREAL POR MENOS DE R$100 NA AMAZON L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios R$99* - com cupom PRIMEDAY20 COMPRE AQUI: oferta válida para membro prime Ganhe 30 dias de Prime grátis:,2025-07-06 15:47:39,pt,TWITTER,,,🎁🚨✨💸🛒,,False,1,True,True,High,Amazon_fake_concern,"Multiple red flags suggest potential counterfeit risk:
-- Extremely low price (R$99) for professional hair product
-- Amazon third-party seller link
-- Promotional ""PRIMEDAY20"" coupon code
-- Emphasis on ","['""Less than R$100""']",False,,,
-1941886899917840497,  Óleo da loreal por menos de R$100 na amazon,Óleo da loreal por menos de R$100 na amazon,2025-07-06 15:48:10,pt,TWITTER,,,,,False,1,True,True,High,Amazon_fake_concern,"- Mentions extremely low price for Loreal product on Amazon
-- ""Less than R$100"" suggests potential counterfeit or unauthorized seller
-- Amazon platform is flagged as a potential source of counterfeit ","['""menos de R$100"" (less than R$100)']",False,,,
