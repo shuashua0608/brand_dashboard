@@ -1,5 +1,0 @@
-fid,transcript,cleaned_transcript,timestamp,text_language,social_media_channel,hashtags,mentions,emojis,cluster_id,is_representative,repetition_count,counterfeit_risk,has_ccr_risk,risk_level,risk_type,reasoning,keywords,result_propagated,relevant,confidence,processing_time
-n49aryn,"  I got it from Amazon. Someone said GNC had it and thats when they tried it, but im not sure if they have it. Give em a call... or take the risk and buy a 12 pack. Sip on it.","I got it from Amazon. Someone said GNC had it and thats when they tried it, but im not sure if they have it. Give em a call... or take the risk and buy a 12 pack. Sip on it.",2025-07-21 00:26:30,en,REDDIT,,,,,False,1,True,True,High,Amazon_fake_concern,"Multiple red flags suggest potential authenticity issues:
-- Purchased from Amazon (known for third-party seller counterfeits)
-- Uncertain about product availability at original retailer (GNC)
-- Vague ","['""take the risk""']",False,,,
