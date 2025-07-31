@@ -1,0 +1,102 @@
+{
+  "brand": "Amika",
+  "timestamp": "2025-07-30T17:54:57.431527",
+  "data_sources": [
+    "ccr",
+    "promo",
+    "sentiment"
+  ],
+  "calculated_risk": {
+    "final_risk_score": 37.42,
+    "risk_level": "HIGH",
+    "component_scores": {
+      "ccr_risk": 0.0,
+      "promotional_risk": 93.48,
+      "sentiment_risk": 0.0,
+      "comment_intensity": 26.78
+    },
+    "component_details": {
+      "ccr": {
+        "ccr_risk_rate_pct": 0.0,
+        "base_score": 0.0,
+        "high_risks": 0,
+        "medium_risks": 0,
+        "low_risks": 0,
+        "severity_score": 0,
+        "amazon_risks": 0,
+        "amazon_bonus": 0,
+        "total_ccr_risks": 0,
+        "total_risk_bonus": 0,
+        "risk_types_count": 0,
+        "diversity_bonus": 0,
+        "final_score": 0.0
+      },
+      "promotional": {
+        "promotional_rate": 81.15942028985508,
+        "base_score": 54.106280193236714,
+        "spam_count": 1,
+        "spam_rate": 1.4492753623188406,
+        "spam_bonus": 18.50557675562497,
+        "repeated_content_rate": 46.3768115942029,
+        "repetition_bonus": 9.27536231884058,
+        "high_intensity_rate": 46.3768115942029,
+        "intensity_bonus": 11.594202898550725,
+        "final_score": 93.48142216625298
+      },
+      "sentiment": {
+        "negative_pct": 0,
+        "organic_negative_pct": 0.0,
+        "primary_negative_pct": 0.0,
+        "base_score": 0.0,
+        "mixed_pct": 0,
+        "mixed_bonus": 0.0,
+        "negative_emotions_pct": 0.0,
+        "emotion_bonus": 0.0,
+        "high_risk_emotion_bonus": 0,
+        "final_score": 0.0
+      },
+      "intensity": {
+        "total_comments": 69,
+        "actual_daily_avg": 5.8,
+        "total_days": 12,
+        "used_actual_timestamps": true,
+        "volume_score": 1.0488898866005731,
+        "repeated_content_rate": 46.3768115942029,
+        "repetition_score": 23.862300773134045,
+        "avg_clustering_efficiency": 5.797101449275362,
+        "efficiency_score": 1.8693687636683798,
+        "final_score": 26.780559423402998
+      }
+    },
+    "weights_used": {
+      "ccr_risk": 0.05,
+      "promotional_risk": 0.3,
+      "sentiment_risk": 0.3,
+      "comment_intensity": 0.35
+    }
+  },
+  "llm_assessment": {
+    "risk_level": "HIGH",
+    "key_factors": [
+      "Extremely high promotional content rate (81.2%)",
+      "Significant content repetition (46.4% duplication rate)",
+      "Unbalanced engagement profile (predominantly promotional)",
+      "Multiple risk indicators present (high promo rate, high duplicate rate, spam detected)",
+      "Heavy reliance on affiliate and influencer marketing (52 of 69 comments)"
+    ],
+    "reasoning": "The risk assessment confirms a HIGH risk level for Amika, primarily driven by an overwhelming promotional content presence that threatens authentic brand perception. With 81.2% of all content being promotional in nature and nearly half (46.4%) being duplicative, the brand's social media presence appears manufactured rather than organic. The dominance of affiliate (30) and influencer (22) promotions suggests the brand is overly dependent on paid partnerships rather than genuine consumer advocacy.\n\nWhile sentiment analysis shows positive emotions (Joy, Anticipation, Trust), this must be contextualized within the promotional nature of the content. The absence of negative sentiment is not necessarily positive when paired with low organic engagement. The comment intensity metrics further support this concern, showing clustering efficiency of only 5.8%, indicating that conversations aren't developing naturally around the brand. This artificial engagement environment creates vulnerability to algorithm changes and diminishes brand authenticity.",
+    "immediate_actions": [
+      "1. Conduct promotional content audit - identify and potentially pause the most repetitive affiliate/influencer campaigns",
+      "2. Implement stricter guidelines for affiliates to reduce content duplication",
+      "3. Increase organic content production by 30% to balance promotional ratio",
+      "4. Investigate and remove spam content sources",
+      "5. Engage directly with top organic commenters to stimulate authentic conversations",
+      "6. Temporarily reduce paid promotion frequency to reset algorithm patterns"
+    ],
+    "long_term_strategy": "1. Develop a balanced content strategy with maximum 40% promotional content target\n2. Create an affiliate/influencer diversity program to reduce repetitive messaging\n3. Implement a UGC (User Generated Content) incentive program to increase organic engagement\n4. Establish content guidelines that limit duplication across promotional partners\n5. Develop sentiment monitoring specifically for organic comments to get accurate consumer feedback\n6. Create community-building initiatives that encourage genuine conversation about products\n7. Diversify marketing channels beyond heavily promotional social media tactics",
+    "business_impact": "1. Algorithm penalties on social platforms reducing organic reach and increasing ad costs\n2. Consumer perception shifting toward \"over-marketed\" brand status\n3. Decreased conversion rates as audiences become blind to repetitive promotional content\n4. Vulnerability to platform policy changes targeting promotional content\n5. Difficulty measuring genuine product satisfaction due to skewed feedback channels\n6. Reduced brand loyalty as authentic connections aren't being formed\n7. Potential waste of marketing budget on ineffective promotional partnerships",
+    "monitoring_priorities": "1. Promotional/organic content ratio (weekly) - Alert if exceeds 50%\n2. Content duplication rate (daily) - Alert if exceeds 25%\n3. Organic engagement rate (daily) - Alert if falls below industry average\n4. Sentiment analysis filtered for organic-only comments (weekly)\n5. Affiliate/influencer performance efficiency (bi-weekly) - Track ROI per partner\n6. Comment clustering metrics (weekly) - Alert if efficiency falls below 10%\n7. Platform-specific algorithm performance indicators (daily)\n8. Conversion tracking from promotional vs. organic content (weekly)"
+  },
+  "final_risk_level": "HIGH",
+  "final_risk_score": 37.42
+}

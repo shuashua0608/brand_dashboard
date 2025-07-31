@@ -1,0 +1,21 @@
+{
+  "brand": "GNC",
+  "original_comments": 593,
+  "total_comments": 353,
+  "relevant_comments": 145,
+  "relevance_rate": 41.07648725212464,
+  "avg_processing_time": 2.2511450886388675,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 353
+  },
+  "clustering_info": {
+    "total_comments": 353,
+    "clustered_comments": "102",
+    "unique_clusters": 21,
+    "propagated_results": "80",
+    "llm_calls_saved": "80"
+  },
+  "timestamp": "2025-07-29T06:15:31.798419"
+}

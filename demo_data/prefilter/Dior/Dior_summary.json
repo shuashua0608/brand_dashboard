@@ -1,0 +1,21 @@
+{
+  "brand": "Dior",
+  "original_comments": 2492,
+  "total_comments": 798,
+  "relevant_comments": 421,
+  "relevance_rate": 52.75689223057645,
+  "avg_processing_time": 2.348537402344228,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 798
+  },
+  "clustering_info": {
+    "total_comments": 798,
+    "clustered_comments": "214",
+    "unique_clusters": 46,
+    "propagated_results": "167",
+    "llm_calls_saved": "167"
+  },
+  "timestamp": "2025-07-29T06:14:31.920937"
+}

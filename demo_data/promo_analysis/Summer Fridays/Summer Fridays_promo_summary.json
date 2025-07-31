@@ -1,0 +1,44 @@
+{
+  "brand": "Summer Fridays",
+  "total_processed": 11,
+  "promotional_count": 5,
+  "high_intensity_promo_count": 1,
+  "promotional_rate": 0.45454545454545453,
+  "high_intensity_promo_rate": 0.09090909090909091,
+  "duplicate_clusters": 0,
+  "total_duplicates": 0,
+  "repeated_content_rate": 0.0,
+  "processing_time": 7.614447832107544,
+  "throughput": 1.4446221502256185,
+  "platform_distribution": {
+    "WEB": 2,
+    "TWITTER": 1,
+    "YOUTUBE": 1,
+    "INSTAGRAM": 1
+  },
+  "promo_types": {
+    "Affiliate": 3,
+    "Influencer": 2
+  },
+  "promotional_intensity_distribution": {
+    "Medium": 4,
+    "High": 1
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": false,
+    "high_duplicate_rate": false,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": -1,
+    "comments_in_clusters": 0,
+    "llm_calls_saved": 0,
+    "efficiency_percentage": 0.0
+  },
+  "comment_preservation": {
+    "original_count": 11,
+    "processed_count": 11,
+    "all_preserved": true
+  }
+}

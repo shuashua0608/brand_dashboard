@@ -1,0 +1,45 @@
+{
+  "brand": "GNC",
+  "total_processed": 145,
+  "promotional_count": 122,
+  "high_intensity_promo_count": 116,
+  "promotional_rate": 0.8413793103448276,
+  "high_intensity_promo_rate": 0.8,
+  "duplicate_clusters": 18,
+  "total_duplicates": 186,
+  "repeated_content_rate": 128.2758620689655,
+  "processing_time": 19.6506028175354,
+  "throughput": 7.378908491835573,
+  "platform_distribution": {
+    "WEB": 103,
+    "TWITTER": 14,
+    "INSTAGRAM": 3,
+    "VK": 1,
+    "YOUTUBE": 1
+  },
+  "promo_types": {
+    "Brand_Official": 105,
+    "Affiliate": 17
+  },
+  "promotional_intensity_distribution": {
+    "High": 116,
+    "Medium": 6
+  },
+  "processing_method": "clustered",
+  "risk_indicators": {
+    "high_promo_rate": true,
+    "high_duplicate_rate": true,
+    "spam_detected": false
+  },
+  "clustering_efficiency": {
+    "total_clusters": 11,
+    "comments_in_clusters": 64,
+    "llm_calls_saved": 52,
+    "efficiency_percentage": 35.86206896551724
+  },
+  "comment_preservation": {
+    "original_count": 145,
+    "processed_count": 145,
+    "all_preserved": true
+  }
+}

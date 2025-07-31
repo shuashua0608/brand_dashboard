@@ -1,0 +1,21 @@
+{
+  "brand": "K18",
+  "original_comments": 203,
+  "total_comments": 100,
+  "relevant_comments": 39,
+  "relevance_rate": 39.0,
+  "avg_processing_time": 2.3140746259689333,
+  "date_filtering": {
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-14",
+    "comments_after_date_filter": 100
+  },
+  "clustering_info": {
+    "total_comments": 100,
+    "clustered_comments": "13",
+    "unique_clusters": 4,
+    "propagated_results": "8",
+    "llm_calls_saved": "8"
+  },
+  "timestamp": "2025-07-29T06:16:32.095616"
+}
